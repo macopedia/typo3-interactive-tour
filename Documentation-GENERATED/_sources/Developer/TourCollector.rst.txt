@@ -1,0 +1,9 @@
+:navigation-title: Tour Collector
+
+.. _tour-collector:
+
+==============
+Tour Collector
+==============
+
+@todo: Add content here

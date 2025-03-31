@@ -1,0 +1,698 @@
+{
+    "std:doc": {
+        "BackendModule": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "BackendModule.html",
+            "Backend Module"
+        ],
+        "Faq": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html",
+            "Frequently Asked Questions (FAQ)"
+        ],
+        "GetHelp": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "GetHelp.html",
+            "Where to get help"
+        ],
+        "Index": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Index.html",
+            "TYPO3 Interactive Tour"
+        ],
+        "Installation": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Installation.html",
+            "Installation"
+        ],
+        "Introduction": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Introduction.html",
+            "Introduction"
+        ],
+        "TourAccess": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourAccess.html",
+            "Tour Access"
+        ],
+        "TourConfiguration": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html",
+            "Tour Configuration"
+        ],
+        "TourOverview": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourOverview.html",
+            "Tour Overview"
+        ]
+    },
+    "std:label": {
+        "guide-module-functions": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "BackendModule.html#guide-module-functions",
+            "Functions offered by the Guide module"
+        ],
+        "faq": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#faq",
+            "Frequently Asked Questions (FAQ)"
+        ],
+        "help": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "GetHelp.html#help",
+            "Where to get help"
+        ],
+        "report-issues": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "GetHelp.html#report-issues",
+            "Report Issues"
+        ],
+        "start": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Index.html#start",
+            "TYPO3 Interactive Tour"
+        ],
+        "installation": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Installation.html#installation",
+            "Installation"
+        ],
+        "installation-composer": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Installation.html#installation-composer",
+            "Install typo3-interactive-tour with Composer"
+        ],
+        "installation-classic": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Installation.html#installation-classic",
+            "Install typo3-interactive-tour in Classic Mode"
+        ],
+        "introduction": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Introduction.html#introduction",
+            "Introduction"
+        ],
+        "main-concepts": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Introduction.html#main-concepts",
+            "Main Concepts"
+        ],
+        "guide-tours": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Introduction.html#guide-tours",
+            "Guide and Tours"
+        ],
+        "extensibility": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Introduction.html#extensibility",
+            "Extensibility"
+        ],
+        "tour-configuration": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#tour-configuration",
+            "Tour Configuration"
+        ],
+        "configure-tour": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#configure-tour",
+            "Configure tour"
+        ],
+        "configure-steps": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#configure-steps",
+            "Configure steps"
+        ],
+        "configure-steps-events": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#configure-steps-events",
+            "Configure steps events"
+        ],
+        "accordion-installation": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-installation",
+            "How can I install this extension?"
+        ],
+        "accordion-tour-configuration": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-tour-configuration",
+            "How can I create my own interactive tour?"
+        ],
+        "accordion-tours-access": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-tours-access",
+            "My user cant see any tours. Why?"
+        ],
+        "accordion-backend-module": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-backend-module",
+            "Can i track progress of my tours?"
+        ],
+        "accordion-help": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-help",
+            "Where to get help?"
+        ],
+        "confval-menu-tour-definition": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-menu-tour-definition",
+            ""
+        ],
+        "confval-tour-definition-identifier": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-identifier",
+            "identifier"
+        ],
+        "confval-tour-definition-title": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-title",
+            "title"
+        ],
+        "confval-tour-definition-description": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-description",
+            "description"
+        ],
+        "confval-tour-definition-permissions": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-permissions",
+            "permission"
+        ],
+        "confval-tour-definition-modulename": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-modulename",
+            "moduleName"
+        ],
+        "confval-tour-definition-isstandalone": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-isstandalone",
+            "isStandalone"
+        ],
+        "confval-tour-definition-skipbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-skipbuttontext",
+            "skipButtonText"
+        ],
+        "confval-tour-definition-previousbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-previousbuttontext",
+            "previousButtonText"
+        ],
+        "confval-tour-definition-nextbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-nextbuttontext",
+            "nextButtonText"
+        ],
+        "confval-tour-definition-finishbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-finishbuttontext",
+            "finishButtonText"
+        ],
+        "confval-tour-definition-nexttouridentifier": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-nexttouridentifier",
+            "nextTourIdentifier"
+        ],
+        "confval-tour-definition-steps": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-steps",
+            "steps"
+        ],
+        "confval-menu-tour-step": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-menu-tour-step",
+            ""
+        ],
+        "confval-tour-step-title": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-title",
+            "title"
+        ],
+        "confval-tour-step-content": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-content",
+            "content"
+        ],
+        "confval-tour-step-target": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-target",
+            "target"
+        ],
+        "confval-tour-step-frame": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-frame",
+            "frame"
+        ],
+        "confval-tour-step-side": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-side",
+            "side"
+        ],
+        "confval-tour-step-align": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-align",
+            "align"
+        ],
+        "confval-tour-step-enableinteraction": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-enableinteraction",
+            "enableInteraction"
+        ],
+        "confval-tour-step-previousbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-previousbuttontext",
+            "previousButtonText"
+        ],
+        "confval-tour-step-nextbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-nextbuttontext",
+            "nextButtonText"
+        ],
+        "confval-tour-step-requireuseractions": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-requireuseractions",
+            "requireUserActions"
+        ],
+        "confval-tour-step-events": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-events",
+            "events"
+        ],
+        "confval-tour-step-sleep": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-sleep",
+            "sleep"
+        ],
+        "confval-menu-tour-step-events": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-menu-tour-step-events",
+            ""
+        ],
+        "confval-tour-step-event": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-event",
+            "event"
+        ],
+        "confval-tour-step-delaybefore": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-delaybefore",
+            "delayBefore"
+        ],
+        "confval-tour-step-delayafter": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-delayafter",
+            "delayAfter"
+        ]
+    },
+    "std:title": {
+        "backend-module": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "BackendModule.html#backend-module",
+            "Backend Module"
+        ],
+        "functions-offered-by-the-guide-module": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "BackendModule.html#guide-module-functions",
+            "Functions offered by the Guide module"
+        ],
+        "frequently-asked-questions-faq": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#faq",
+            "Frequently Asked Questions (FAQ)"
+        ],
+        "where-to-get-help": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "GetHelp.html#help",
+            "Where to get help"
+        ],
+        "report-issues": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "GetHelp.html#report-issues",
+            "Report Issues"
+        ],
+        "typo3-interactive-tour": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Index.html#start",
+            "TYPO3 Interactive Tour"
+        ],
+        "installation-1": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Installation.html#installation",
+            "Installation"
+        ],
+        "install-typo3-interactive-tour-with-composer": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Installation.html#installation-composer",
+            "Install typo3-interactive-tour with Composer"
+        ],
+        "install-typo3-interactive-tour-in-classic-mode": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Installation.html#installation-classic",
+            "Install typo3-interactive-tour in Classic Mode"
+        ],
+        "introduction-1": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Introduction.html#introduction",
+            "Introduction"
+        ],
+        "main-concepts": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Introduction.html#main-concepts",
+            "Main Concepts"
+        ],
+        "guide-and-tours": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Introduction.html#guide-tours",
+            "Guide and Tours"
+        ],
+        "extensibility": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Introduction.html#extensibility",
+            "Extensibility"
+        ],
+        "tour-access": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourAccess.html#tour-access",
+            "Tour Access"
+        ],
+        "tour-configuration-1": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#tour-configuration",
+            "Tour Configuration"
+        ],
+        "configure-tour": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#configure-tour",
+            "Configure tour"
+        ],
+        "configure-steps": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#configure-steps",
+            "Configure steps"
+        ],
+        "configure-steps-events": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#configure-steps-events",
+            "Configure steps events"
+        ],
+        "tour-overview": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourOverview.html#tour-overview",
+            "Tour Overview"
+        ]
+    },
+    "std:accordion": {
+        "installation": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-installation",
+            "How can I install this extension?"
+        ],
+        "tour-configuration": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-tour-configuration",
+            "How can I create my own interactive tour?"
+        ],
+        "tours-access": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-tours-access",
+            "My user cant see any tours. Why?"
+        ],
+        "backend-module": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-backend-module",
+            "Can i track progress of my tours?"
+        ],
+        "help": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "Faq.html#accordion-help",
+            "Where to get help?"
+        ]
+    },
+    "std:confval-menu": {
+        "tour-definition": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-menu-tour-definition",
+            ""
+        ],
+        "tour-step": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-menu-tour-step",
+            ""
+        ],
+        "tour-step-events": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-menu-tour-step-events",
+            ""
+        ]
+    },
+    "std:confval": {
+        "tour-definition-identifier": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-identifier",
+            "identifier"
+        ],
+        "tour-definition-title": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-title",
+            "title"
+        ],
+        "tour-definition-description": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-description",
+            "description"
+        ],
+        "tour-definition-permissions": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-permissions",
+            "permission"
+        ],
+        "tour-definition-modulename": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-modulename",
+            "moduleName"
+        ],
+        "tour-definition-isstandalone": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-isstandalone",
+            "isStandalone"
+        ],
+        "tour-definition-skipbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-skipbuttontext",
+            "skipButtonText"
+        ],
+        "tour-definition-previousbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-previousbuttontext",
+            "previousButtonText"
+        ],
+        "tour-definition-nextbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-nextbuttontext",
+            "nextButtonText"
+        ],
+        "tour-definition-finishbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-finishbuttontext",
+            "finishButtonText"
+        ],
+        "tour-definition-nexttouridentifier": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-nexttouridentifier",
+            "nextTourIdentifier"
+        ],
+        "tour-definition-steps": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-definition-steps",
+            "steps"
+        ],
+        "tour-step-title": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-title",
+            "title"
+        ],
+        "tour-step-content": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-content",
+            "content"
+        ],
+        "tour-step-target": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-target",
+            "target"
+        ],
+        "tour-step-frame": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-frame",
+            "frame"
+        ],
+        "tour-step-side": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-side",
+            "side"
+        ],
+        "tour-step-align": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-align",
+            "align"
+        ],
+        "tour-step-enableinteraction": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-enableinteraction",
+            "enableInteraction"
+        ],
+        "tour-step-previousbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-previousbuttontext",
+            "previousButtonText"
+        ],
+        "tour-step-nextbuttontext": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-nextbuttontext",
+            "nextButtonText"
+        ],
+        "tour-step-requireuseractions": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-requireuseractions",
+            "requireUserActions"
+        ],
+        "tour-step-events": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-events",
+            "events"
+        ],
+        "tour-step-sleep": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-sleep",
+            "sleep"
+        ],
+        "tour-step-event": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-event",
+            "event"
+        ],
+        "tour-step-delaybefore": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-delaybefore",
+            "delayBefore"
+        ],
+        "tour-step-delayafter": [
+            "TYPO3 Interactive Tour",
+            "-",
+            "TourConfiguration.html#confval-tour-step-delayafter",
+            "delayAfter"
+        ]
+    }
+}

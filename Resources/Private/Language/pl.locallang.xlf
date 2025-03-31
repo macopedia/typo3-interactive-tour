@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:typo3-interactive-tour/Resources/Private/Language/locallang_db.xlf" date="2025-01-27T10:00:00Z" product-name="lang">
+		<header/>
+		<body>
+
+			<trans-unit id="backendGuideTours">
+				<source>Backend Guide Tours</source>
+				<target>Przewodniki po panelu administracyjnym</target>
+			</trans-unit>
+
+			<!-- General labels used by the guide popups -->
+
+			<trans-unit id="buttonPrevious">
+				<source>Previous</source>
+				<target>Wstecz</target>
+			</trans-unit>
+			<trans-unit id="buttonNext">
+				<source>Next</source>
+				<target>Dalej</target>
+			</trans-unit>
+			<trans-unit id="buttonFinish">
+				<source>Finish</source>
+				<target>Zakończ</target>
+			</trans-unit>
+
+
+			<!-- Tour: typo3/welcome -->
+
+			<trans-unit id="typo3.welcome.step1.title">
+				<source>Welcome to the Backend</source>
+				<target>Witaj w panelu administracyjnym TYPO3</target>
+			</trans-unit>
+			<trans-unit id="typo3.welcome.step2.content">
+				<source>This is the backend of TYPO3 CMS. Here you can manage your content, users, and settings</source>
+				<target>To jest panel administracyjny TYPO3 CMS. Tutaj możesz zarządzać swoją zawartością, użytkownikami i ustawieniami</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

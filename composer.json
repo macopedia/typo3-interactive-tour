@@ -1,0 +1,64 @@
+{
+	"name": "macopedia/typo3-interactive-tour",
+	"type": "typo3-cms-extension",
+	"description": "An interactive tour through the TYPO3 backend.",
+	"keywords": [
+		"TYPO3",
+		"guide",
+		"tour",
+		"backend"
+	],
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Marcin Sągol",
+			"email": "m.sagol@macopedia.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"symfony/http-foundation": "*",
+		"typo3/cms-lowlevel": "^13.3",
+		"typo3/cms-setup": "^13.3"
+	},
+	"require-dev": {
+        "friendsofphp/php-cs-fixer": "^3",
+		"roave/security-advisories": "dev-latest"
+	},
+	"conflict": {
+		"typo3/cms-core": "<12"
+	},
+	"config": {
+		"preferred-install": {
+			"*": "dist"
+		},
+        "bin-dir": "Build/bin",
+		"sort-packages": true,
+		"vendor-dir": "Build/vendor",
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true,
+			"ergebnis/composer-normalize": true,
+			"phpstan/extension-installer": true
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "typo3-interactive-tour"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Macopedia\\Typo3InteractiveTour\\": "Classes"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Macopedia\\Typo3InteractiveTour\\Tests\\": "Tests"
+		}
+	},
+    "scripts": {
+        "cs": "php ./Build/bin/php-cs-fixer fix --dry-run -v --config ./Build/.php-cs-fixer.php",
+        "csfix": "php ./Build/bin/php-cs-fixer fix  -v --config ./Build/.php-cs-fixer.php"
+    }
+}

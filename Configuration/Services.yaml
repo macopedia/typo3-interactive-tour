@@ -1,0 +1,38 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Macopedia\Typo3InteractiveTour\:
+    resource: '../Classes/*'
+
+  guide.configuration.module.provider.guidetours:
+    class: 'Macopedia\Typo3InteractiveTour\ConfigurationModuleProvider\GuideToursProvider'
+    tags:
+      - name: 'lowlevel.configuration.module.provider'
+        identifier: 'backendGuideTours'
+        label: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:backendGuideTours'
+        before: 'toolbaritems'
+
+  dashboard.buttons.toursProgress:
+    class: 'Macopedia\Typo3InteractiveTour\Widgets\Provider\GuidesModuleButtonProvider'
+    arguments:
+      $title: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:widgets.toursProgressWidget.seeAllTours'
+      $target: '_blank'
+
+  dashboard.widget.toursProgressWidget:
+    class: 'Macopedia\Typo3InteractiveTour\Widgets\ToursProgressWidget'
+    arguments:
+      $buttonProvider: '@dashboard.buttons.toursProgress'
+      $options:
+        refreshAvailable: true
+    tags:
+      - name: dashboard.widget
+        identifier: 'toursProgressWidget'
+        groupNames: 'documentation'
+        title: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:widgets.toursProgressWidget.title'
+        description: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:widgets.toursProgressWidget.description'
+        iconIdentifier: 'module-guide'
+        height: 'small'
+        width: 'small'

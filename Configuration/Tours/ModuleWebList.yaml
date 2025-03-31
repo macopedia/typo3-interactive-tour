@@ -1,0 +1,87 @@
+identifier: typo3/webList
+title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.title"
+description: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.description"
+moduleName: "web_list"
+permissions:
+  tablesModify:
+    - pages
+  tablesSelect:
+    - pages
+steps:
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step1.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step1.content"
+    target: '[data-modulemenu-identifier="web_list"]'
+    side: "right"
+    align: "center"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step2.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step2.content"
+    target: ".t3js-scaffold-content-navigation"
+    side: "right"
+    align: "center"
+    enableInteraction: true
+    requireUserActions: true
+    sleep: 250
+    events:
+      userActions:
+        - event: "click"
+          target: "#typo3-pagetree-tree [role='treeitem']:has([identifier='apps-pagetree-page-default'], [identifier='apps-pagetree-page-domain'], [identifier='apps-pagetree-page-backend-users'], [identifier='apps-pagetree-page-shortcut'])"
+        - event: "typo3-module-loaded"
+          target: "div.scaffold-content-module.t3js-scaffold-content-module"
+          delayAfter: 100
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step3.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step3.content"
+    target: ".t3js-scaffold-content-module"
+    side: "left"
+    align: "center"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step4.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step4.content"
+    target: ".module-docheader-bar-column-left a[role='button']:first-child"
+    frame: "#typo3-contentIframe"
+    side: "right"
+    align: "start"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step5.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step5.content"
+    target: ".module-docheader-bar-column-left a[role='button']:nth-child(2)"
+    frame: "#typo3-contentIframe"
+    side: "right"
+    align: "start"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step6.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step6.content"
+    target: ".module-docheader-bar-column-left a[role='button']:nth-child(3)"
+    frame: "#typo3-contentIframe"
+    side: "right"
+    align: "start"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step7.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step7.content"
+    target: '[data-identifier="actions-refresh"]'
+    frame: "#typo3-contentIframe"
+    side: "bottom"
+    align: "center"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step8.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step8.content"
+    target: ".module-docheader-bar-column-right .btn-group:nth-child(3) > button"
+    frame: "#typo3-contentIframe"
+    side: "left"
+    align: "start"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step9.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webList.step9.content"
+    target: ".module-docheader-bar-column-right .btn-group:nth-child(3) .dropdown-menu"
+    frame: "#typo3-contentIframe"
+    side: "left"
+    align: "start"
+    events:
+      onShow:
+        - event: "click"
+          target: ".module-docheader-bar-column-right .btn-group:nth-child(3) > button"
+          delayAfter: 50
+      onExit:
+        - event: "click"
+          target: ".module-docheader-bar-column-right .btn-group:nth-child(3) > button"

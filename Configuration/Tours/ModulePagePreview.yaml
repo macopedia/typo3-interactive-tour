@@ -1,0 +1,81 @@
+identifier: typo3/pagePreview
+title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.title"
+description: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.description"
+moduleName: "page_preview"
+nextTourIdentifier: typo3/webList
+permissions:
+  tablesSelect:
+    - pages
+steps:
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step1.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step1.content"
+    target: '[data-modulemenu-identifier="page_preview"]'
+    side: "right"
+    align: "center"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step2.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step2.content"
+    target: "#typo3-pagetree"
+    side: "right"
+    align: "center"
+    enableInteraction: true
+    requireUserActions: true
+    sleep: 200
+    events:
+      userActions:
+        - event: "click"
+          target: "#typo3-pagetree-tree [role='treeitem']:has([identifier='apps-pagetree-page-default'], [identifier='apps-pagetree-page-domain'], [identifier='apps-pagetree-page-backend-users'], [identifier='apps-pagetree-page-shortcut'])"
+          delayAfter: 100
+        - event: "typo3-module-loaded"
+          target: "div.scaffold-content-module.t3js-scaffold-content-module"
+          delayAfter: 100
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step3.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step3.content"
+    target: ".module-body.t3js-module-body .viewpage-item"
+    frame: "#typo3-contentIframe"
+    side: "right"
+    align: "start"
+    sleep: 200
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step4.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step4.content"
+    target: ".module-body.t3js-module-body .viewpage-topbar-orientation"
+    frame: "#typo3-contentIframe"
+    side: "botom"
+    align: "center"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step5.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step5.content"
+    target: ".module-body.t3js-module-body .viewpage-topbar-preset"
+    frame: "#typo3-contentIframe"
+    side: "botom"
+    align: "center"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step6.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step6.content"
+    target: ".module-body.t3js-module-body .viewpage-topbar-preset .dropdown-menu"
+    frame: "#typo3-contentIframe"
+    side: "botom"
+    align: "center"
+    sleep: 200
+    events:
+      onShow:
+        - event: "click"
+          target: "#viewpage-topbar-preset-button"
+          frame: "#typo3-contentIframe"
+          delayAfter: 100
+      onExit:
+        - event: "click"
+          target: "#viewpage-topbar-preset-button"
+          delayAfter: 10
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step7.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step7.content"
+    target: ".module-docheader-bar-column-left a[role='button']:first-child"
+    frame: "#typo3-contentIframe"
+    side: "right"
+    align: "start"
+
+  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step8.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.pagePreview.step8.content"
