@@ -1,0 +1,50 @@
+identifier: typo3/backend
+title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.title"
+description: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.description"
+moduleName: "web_layout"
+nextTourIdentifier: typo3/webLayout
+steps:
+  -
+    title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step1.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step1.content"
+    side: 'bottom'
+    align: 'center'
+
+  -
+    title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step2.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step2.content"
+    target: '.scaffold-header'
+    side: 'bottom'
+    align: 'center'
+
+  -
+    title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step3.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step3.content"
+    target: '.toolbar-item.toolbar-item-user'
+    side: 'bottom'
+    align: 'center'
+
+  -
+    title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step4.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step4.content"
+    target: '#modulemenu'
+    side: 'right'
+    align: 'center'
+
+  -
+    title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step5.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step5.content"
+    target: '.t3js-topbar-button-modulemenu'
+    side: 'right'
+    align: 'center'
+
+  -
+    title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step6.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step6.content"
+    target: '.t3js-scaffold-content-module'
+    side: 'top'
+    align: 'center'
+
+  -
+    title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step7.title"
+    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.backend.step7.content"

@@ -1,0 +1,38 @@
+<html
+        xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+        xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers"
+        data-namespace-typo3-fluid="true"
+>
+
+<f:layout name="Module" />
+
+<f:section name="Before">
+    <f:be.pageRenderer
+            includeCssFiles="{ 0: 'EXT:typo3-interactive-tour/Resources/Public/StyleSheets/Guide.css' }"
+            includeJavaScriptModules="{
+                0: '@macopedia/typo3-interactive-tour/guide.js',
+                1: '@macopedia/typo3-interactive-tour/guide_switch.js',
+                2: '@typo3/backend/element/progress-bar-element.js'
+        }"
+    />
+</f:section>
+
+<f:section name="Content">
+
+    <div class="container about-module">
+
+        <f:for each="{messages}" as="message">
+            <f:be.infobox title="{f:if(condition: message.title, then: message.title, else: '{f:translate(key: \'LLL:EXT:core/Resources/Private/Language/locallang_core.xlf:warning.header\')}')}" state="{f:constant(name: 'TYPO3\CMS\Fluid\ViewHelpers\Be\InfoboxViewHelper::STATE_ERROR')}">
+                <p>{message.message -> f:sanitize.html()}</p>
+            </f:be.infobox>
+        </f:for>
+
+        <f:render partial="Guide/Introduction" arguments="{_all}" />
+        <f:render partial="Guide/Controls" arguments="{_all}" />
+        <f:render partial="Guide/Tours" arguments="{_all}" />
+
+    </div>
+
+</f:section>
+
+</html>

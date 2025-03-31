@@ -1,0 +1,9 @@
+:navigation-title: Tour Manager
+
+.. _tour-manager:
+
+==============
+Tour Manager
+==============
+
+@todo: Add content here

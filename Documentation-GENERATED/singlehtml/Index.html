@@ -1,0 +1,2566 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>TYPO3 Interactive Tour 
+        documentation</title>
+
+    
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="phpdocumentor/guides" name="generator">
+<meta content="TYPO3 Interactive Tour" name="docsearch:name">
+<meta content="" name="docsearch:package_type">
+<meta content="" name="docsearch:release">
+<meta content="" name="docsearch:version">
+<meta content="2025-03-31T17:46:00+00:00" name="docsearch:modified">
+<meta content="2025-03-31T17:46:00+00:00" name="dc.modified">
+<meta content="2025-03-31T17:46:00+00:00" property="article:modified_time">
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc">
+<link href="../_resources/css/theme.css" rel="stylesheet">
+<link href="https://docs.typo3.org/search/" rel="search" title="Search">
+<script src="https://cdn.typo3.com/typo3infrastructure/universe/dist/webcomponents-loader.js"></script>
+<script src="https://cdn.typo3.com/typo3infrastructure/universe/dist/typo3-universe.js" type="module"></script>
+                </head>
+<body>
+<div class="page">
+    <header>
+    <div class="page-topbar">
+        <div class="page-topbar-inner">
+            <typo3-universe active="documentation">
+                <div style="display: block; height: 44px; background-color: #313131;"></div>
+            </typo3-universe>
+        </div>
+    </div>
+    <div class="page-header">
+        <div class="page-header-inner">
+            <div class="row">
+                <div class="col-2 col-lg-4">
+                    <a class="logo" href="https://docs.typo3.org/" title="TYPO3 Documentation">
+                        <img alt="TYPO3 Logo" class="logo-image" src="../_resources/img/typo3-logo.svg" width="484" height="130">
+                    </a>
+                </div>
+                <div class="col-10 col-lg-8">
+                    <div class="menu-search-wrapper">
+                        <all-documentations-menu data-override-url="https://render-guides.ddev.site/_resources/js/menu-proxy.php"></all-documentations-menu>
+                                                <search role="search">
+                            <form action="https://docs.typo3.org/search/search" id="global-search-form" method="get">
+                                <div class="sr-only"><label for="globalsearchinput">TYPO3 documentation...</label></div>
+                                <div class="input-group mb-3 mt-sm-3">
+                                    <select class="form-select search__scope" id="searchscope" name="scope">
+                                        <option value="">Search all</option>
+                                    </select>
+                                    <input autocomplete="off" class="form-control shadow-none" id="globalsearchinput" name="q" placeholder="TYPO3 documentation..." type="text" value="">
+                                    <button class="btn btn-light" type="submit"><i class="fa fa-search"></i>&nbsp;<span class="d-none d-md-inline">Search</span></button>
+                                </div>
+                            </form>
+                            <div id="global-search-root"></div>
+                        </search>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>    <main class="page-main">
+        <div class="page-main-inner">
+            <div class="page-main-navigation">
+                <nav>
+                    
+<div class="toc-header">
+    <div class="toc-title">
+        <a class="toc-title-project" href="#">TYPO3 Interactive Tour</a>
+            </div>
+    <div class="toc-actions">
+        <button id="toc-toggle" class="btn btn-light d-block d-lg-none" tabindex="0" aria-controls="toc-collapse" aria-expanded="false">
+            Menu
+        </button>
+    </div>
+</div>                    <div id="toc-collapse">
+                                                <div aria-label="main navigation" class="toc"
+                             role="navigation">
+                                                                                </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="page-main-content">
+                <div class="rst-content">                                                                <!-- content start -->
+    <article>
+            <section class="section" id="typo3-interactive-tour" data-rst-anchor="start">
+            <a id="start"></a>
+            <h1>TYPO3 Interactive Tour<a class="headerlink" href="#typo3-interactive-tour" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            <dl class="field-list simple ">
+            <dt class="field-odd">Extension key</dt>
+
+        <dd class="field-odd">
+            
+    <p>typo3-interactive-tour</p>
+        </dd>
+            <dt class="field-odd">Package name</dt>
+
+        <dd class="field-odd">
+            
+    <p>macopedia/typo3-interactive-tour</p>
+        </dd>
+            <dt class="field-odd">Version</dt>
+
+        <dd class="field-odd">
+            
+        </dd>
+            <dt class="field-odd">Language</dt>
+
+        <dd class="field-odd">
+            
+    <p>en</p>
+        </dd>
+            <dt class="field-odd">Author</dt>
+
+        <dd class="field-odd">
+            
+    <p>Marcin Sągol, Mateusz Gdula</p>
+        </dd>
+            <dt class="field-odd">License</dt>
+
+        <dd class="field-odd">
+            
+    <p>This document is published under the
+<a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU GENERAL PUBLIC LICENSE</a>.</p>
+        </dd>
+            <dt class="field-odd">Rendered</dt>
+
+        <dd class="field-odd">
+            
+    <p>Mon, 31 Mar 2025 17:46:00 +0000</p>
+        </dd>
+    </dl>
+            <hr />
+            
+    <p>An interactive tour through the TYPO3 backend.</p>
+
+            <hr />
+            
+            <div class="row card-group pb-4 row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#introduction">Introduction</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Find out what this extension does.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#installation">Installation</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Explains how to install this extension in Composer-based and Classic
+TYPO3 installations.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#tour-configuration">Toru Configuration</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Find out how to configure the tours.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#tour-access">Torus Access</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Find out how the tour access it determined.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#backend-module">Backend Module</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Read about backend module.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#faq">Frequently Asked Questions (FAQ)</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>These questions have been frequently asked.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#help">How to get help</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Learn where to get help and how to report issues you found.</p>
+
+        </div>
+    </div>
+        </div>
+        </div></div>
+    </section>
+
+        </article>
+<article>
+            <section class="section" id="typo3-interactive-tour" data-rst-anchor="start">
+            <a id="start"></a>
+            <h1>TYPO3 Interactive Tour<a class="headerlink" href="#typo3-interactive-tour" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            <dl class="field-list simple ">
+            <dt class="field-odd">Extension key</dt>
+
+        <dd class="field-odd">
+            
+    <p>typo3-interactive-tour</p>
+        </dd>
+            <dt class="field-odd">Package name</dt>
+
+        <dd class="field-odd">
+            
+    <p>macopedia/typo3-interactive-tour</p>
+        </dd>
+            <dt class="field-odd">Version</dt>
+
+        <dd class="field-odd">
+            
+        </dd>
+            <dt class="field-odd">Language</dt>
+
+        <dd class="field-odd">
+            
+    <p>en</p>
+        </dd>
+            <dt class="field-odd">Author</dt>
+
+        <dd class="field-odd">
+            
+    <p>Marcin Sągol, Mateusz Gdula</p>
+        </dd>
+            <dt class="field-odd">License</dt>
+
+        <dd class="field-odd">
+            
+    <p>This document is published under the
+<a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU GENERAL PUBLIC LICENSE</a>.</p>
+        </dd>
+            <dt class="field-odd">Rendered</dt>
+
+        <dd class="field-odd">
+            
+    <p>Mon, 31 Mar 2025 17:46:00 +0000</p>
+        </dd>
+    </dl>
+            <hr />
+            
+    <p>An interactive tour through the TYPO3 backend.</p>
+
+            <hr />
+            
+            <div class="row card-group pb-4 row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#introduction">Introduction</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Find out what this extension does.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#installation">Installation</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Explains how to install this extension in Composer-based and Classic
+TYPO3 installations.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#tour-configuration">Toru Configuration</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Find out how to configure the tours.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#tour-access">Torus Access</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Find out how the tour access it determined.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#backend-module">Backend Module</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Read about backend module.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#faq">Frequently Asked Questions (FAQ)</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>These questions have been frequently asked.</p>
+
+        </div>
+    </div>
+        </div>
+        </div><div class="col">
+            <div class="card h-100">
+            <div class="card-body">
+        <h3><a href="#help">How to get help</a><a class="headerlink" href="#card" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+        <div class="card-text">
+            
+    <p>Learn where to get help and how to report issues you found.</p>
+
+        </div>
+    </div>
+        </div>
+        </div></div>
+    </section>
+
+        </article>
+<article>
+            <section class="section" id="introduction-1" data-rst-anchor="introduction">
+            <a id="introduction"></a>
+            <h1>Introduction<a class="headerlink" href="#introduction-1" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            
+    <p>Welcome to the <strong>TYPO3 Interactive Tour</strong> extension documentation.
+This extension was created as a initiative selected by the community through the <em>Community Budget Ideas 2025 Q1</em> (you can read more about it <a href="https://talk.typo3.org/t/interactive-guide-tour-to-typo3-backend/5996">here</a>).</p>
+
+            
+    <p>The main goal of this extension is to provide an interactive tour through the TYPO3 backend, to help users get familiar with the backend and its features.</p>
+
+            <section class="section" id="main-concepts" data-rst-anchor="main-concepts">
+            <a id="main-concepts"></a>
+            <h2>Main Concepts<a class="headerlink" href="#main-concepts" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h2>
+            
+    <p>To get started, let&#039;s introduce the main concepts of the extension.</p>
+
+            <section class="section" id="guide-and-tours" data-rst-anchor="guide-tours">
+            <a id="guide-tours"></a>
+            <h3>Guide and Tours<a class="headerlink" href="#guide-and-tours" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+            
+    <p>The main concept is to provide a guide that offers users tours they can follow to become familiar with the TYPO3 backend.
+We have then two main names to remember:</p>
+
+            
+
+<ul>
+    <li><strong>Guide</strong>: The <em>Guide</em> module is a dedicated section in the TYPO3 backend that allows users to manage tours and track their progress.
+To view this module, the user must be granted access.
+The main purpose of the <em>Guide</em> module is to provide an overview of all available tours and their progress.
+You can read more about it in the chapter <a href="#backend-module">Backend Module</a>.</li>
+    <li><strong>Tour</strong>: A tour is a sequence of steps that guides the user through the TYPO3 backend.
+Each step introduces a specific part of the interface or asks the user to perform a simple task.
+Users can navigate through the steps using the <em>Next</em> and <em>Previous</em> buttons.
+Tours can be started, continued, reset, and progress can be tracked.
+You can read more about tours in the chapter <a href="#tour-configuration">Tour Configuration</a>.</li>
+</ul>
+
+    </section>
+            <section class="section" id="extensibility" data-rst-anchor="extensibility">
+            <a id="extensibility"></a>
+            <h3>Extensibility<a class="headerlink" href="#extensibility" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h3>
+            
+    <p>The extension is designed to be easily extensible, allowing the community to create new tours and share them with others.
+This way, extension authors can create tours specifically designed for their custom modules, helping users become familiar with them more easily.</p>
+
+            
+    <p>You can read more about how to create your own tours in the chapter <a href="#tour-configuration">Tour Configuration</a>.</p>
+
+    </section>
+    </section>
+    </section>
+
+        </article>
+<article>
+            <section class="section" id="installation-1" data-rst-anchor="installation">
+            <a id="installation"></a>
+            <h1>Installation<a class="headerlink" href="#installation-1" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            <section class="section" id="install-typo3-interactive-tour-with-composer" data-rst-anchor="installation-composer">
+            <a id="installation-composer"></a>
+            <h2>Install typo3-interactive-tour with Composer<a class="headerlink" href="#install-typo3-interactive-tour-with-composer" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h2>
+            
+    <p>Install the extension via Composer:</p>
+
+            <div class="code-block-wrapper" translate="no">
+            
+    <pre class="code-block"><code class="hljs bash">composer req typo3-interactive-tour</code></pre>
+    <div class="code-block-actions">        <button class="code-block-copy" title="Copy to clipboard">
+            <i class="icon fa-regular fa-copy code-block-copy-icon"></i>
+            <i class="fa-solid fa-check code-block-check-icon code-block-hide"></i>
+        </button>
+        <span class="code-block-check-tooltip code-block-hide" aria-live="polite">Copied!</span>
+    </div>
+</div>
+            
+    <p>See also <a href="https://docs.typo3.org/m/typo3/tutorial-getting-started/13.4/en-us/Extensions/InstallingExtensions.html#installing-extensions">Installing extensions, TYPO3 Getting started</a>.</p>
+
+    </section>
+            <section class="section" id="install-typo3-interactive-tour-in-classic-mode" data-rst-anchor="installation-classic">
+            <a id="installation-classic"></a>
+            <h2>Install typo3-interactive-tour in Classic Mode<a class="headerlink" href="#install-typo3-interactive-tour-in-classic-mode" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h2>
+            
+    <p>Or download the extension from <a href="https://github.com/macopedia/typo3-interactive-tour">https://github.com/macopedia/typo3-interactive-tour</a> and install it in
+the Extension Manager.</p>
+
+    </section>
+    </section>
+
+        </article>
+<article>
+            <section class="section" id="tour-configuration-1" data-rst-anchor="tour-configuration">
+            <a id="tour-configuration"></a>
+            <h1>Tour Configuration<a class="headerlink" href="#tour-configuration-1" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            
+    <p>The entire configuration for tours is stored in <code class="code-inline" translate="no">YAML</code> files.
+Each TYPO3 package is scanned to check if it contains a <code class="code-inline" translate="no">.yaml</code> file inside the <code class="code-inline" translate="no">Configuration/<wbr>Tours/</code> folder.
+It can be one of more files, and they all will be processed.
+The file must follow the structure described in the next sections.</p>
+
+            <section class="section" id="configure-tour" data-rst-anchor="configure-tour">
+            <a id="configure-tour"></a>
+            <h2>Configure tour<a class="headerlink" href="#configure-tour" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h2>
+            
+    <p>Each tour should be configured in a separate YAML file.
+The following properties are available:</p>
+
+            
+
+
+
+
+<div class="table-responsive confval-table" id="confval-menu-tour-definition">
+    <table class="table table-hover caption-top">        <thead>
+        <tr>
+            <th scope="col">Name</th>
+            
+                                    <th scope="col">Type</th>
+                            
+                                    <th scope="col">Required</th>
+                                    </tr>
+        </thead>
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-identifier">identifier</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+            true                        </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-title">title</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+            true                        </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-description">description</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-permissions">permission</a></div></td>
+                    <td>
+                            array
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                                        
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-modulename">module<wbr>Name</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                            
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-isstandalone">is<wbr>Standalone</a></div></td>
+                    <td>
+                            bool
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-skipbuttontext">skip<wbr>Button<wbr>Text</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-previousbuttontext">previous<wbr>Button<wbr>Text</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-nextbuttontext">next<wbr>Button<wbr>Text</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-finishbuttontext">finish<wbr>Button<wbr>Text</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-nexttouridentifier">next<wbr>Tour<wbr>Identifier</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                            
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-definition-steps">steps</a></div></td>
+                    <td>
+                            array
+                        </td>
+                    <td>
+            true                        </td>
+            </tr>
+                
+            </table>
+</div>
+            <section data-search-title="identifier"
+         data-search-id="confval-tour-definition-identifier"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">identifier</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-identifier"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">identifier</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-identifier"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-identifier"
+                       data-rstCode=":ref:`identifier &lt;typo3-interactive-tour:confval-tour-definition-identifier&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                                            <dt class="field-odd">Required</dt>
+                        <dd class="field-odd"><p>true</p>
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Unique identifier for the tour. Use the format <code class="code-inline" translate="no">vendor/<wbr>tour<wbr>Name</code>.
+</div>
+<div class="line">
+    The typo3 vendor is reserved for core tours.
+</div>
+<div class="line">
+    It is recommended to use the name of the backend module (if applicable) as the tour name.
+</div>
+<div class="line">
+    Examples: <code class="code-inline" translate="no">typo3/<wbr>web<wbr>Layout</code> or <code class="code-inline" translate="no">vendor/<wbr>web<wbr>News<wbr>Management</code>.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="title"
+         data-search-id="confval-tour-definition-title"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">title</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-title"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">title</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-title"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-title"
+                       data-rstCode=":ref:`title &lt;typo3-interactive-tour:confval-tour-definition-title&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                                            <dt class="field-odd">Required</dt>
+                        <dd class="field-odd"><p>true</p>
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>Title of the tour. It will be displayed in the <a href="#backend-module">Backend Module</a>, where the user can see all available tours.</p>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="description"
+         data-search-id="confval-tour-definition-description"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">description</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-description"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">description</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-description"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-description"
+                       data-rstCode=":ref:`description &lt;typo3-interactive-tour:confval-tour-definition-description&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>Short description of the tour. It will be displayed in the <a href="#backend-module">Backend Module</a>, where the user can see all available tours.</p>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="permission"
+         data-search-id="confval-tour-definition-permissions"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">permission</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-permissions"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">permission</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-permissions"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-permissions"
+                       data-rstCode=":ref:`permission &lt;typo3-interactive-tour:confval-tour-definition-permissions&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">array
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Permissions required to access the tour.
+</div>
+<div class="line">
+    The user must have all the listed permissions to see the tour.
+</div>
+<div class="line">
+    The permissions are checked against the backend user and groups.
+</div>
+<div class="line">
+    If the user does not have the required permissions, the tour will not be displayed.
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    Allowed permissions:
+</div>
+
+</div>
+<div class="code-block-wrapper" translate="no">
+            
+    <pre class="code-block"><code class="hljs yaml"><span class="hljs-attr">modules:</span> <span class="hljs-string">[]</span>
+<span class="hljs-attr">pagetypesSelect:</span> <span class="hljs-string">[]</span>
+<span class="hljs-attr">tablesModify:</span> <span class="hljs-string">[]</span>
+<span class="hljs-attr">tablesSelect:</span> <span class="hljs-string">[]</span>
+<span class="hljs-attr">nonExcludeFields:</span> <span class="hljs-string">[]</span>
+<span class="hljs-attr">explicitAllowdeny:</span> <span class="hljs-string">[]</span>
+<span class="hljs-attr">filePermissions:</span> <span class="hljs-string">[]</span>
+<span class="hljs-attr">availableWidgets:</span> <span class="hljs-string">[]</span></code></pre>
+    <div class="code-block-actions">        <button class="code-block-copy" title="Copy to clipboard">
+            <i class="icon fa-regular fa-copy code-block-copy-icon"></i>
+            <i class="fa-solid fa-check code-block-check-icon code-block-hide"></i>
+        </button>
+        <span class="code-block-check-tooltip code-block-hide" aria-live="polite">Copied!</span>
+    </div>
+</div>    
+<div class="admonition note" role="alert">
+    <p class="admonition-title">Note</p>
+            
+    <p>Not all of those permissions will make sens to be used, but we support them to be consistent with the TYPO3 backend.</p>
+
+</div>
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="moduleName"
+         data-search-id="confval-tour-definition-modulename"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">moduleName</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-modulename"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">module<wbr>Name</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-modulename"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-modulename"
+                       data-rstCode=":ref:`moduleName &lt;typo3-interactive-tour:confval-tour-definition-modulename&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Module name to which the tour is bound. This is used to display the tour only when the user is in the corresponding module.
+</div>
+<div class="line">
+    This should be a real module name as defined in the TYPO3 backend. Check the <code class="code-inline" translate="no">Configuration</code> -&gt; <code class="code-inline" translate="no">Backend modules</code> module, to see the list of available modules.
+</div>
+<div class="line">
+    Examples: <code class="code-inline" translate="no">web_<wbr>layout</code>, <code class="code-inline" translate="no">web_<wbr>list</code>, <code class="code-inline" translate="no">file</code> etc.
+</div>
+
+</div>
+    
+<div class="admonition note" role="alert">
+    <p class="admonition-title">Note</p>
+            
+    <p>This module name is used to check if the user has access to the module. Read more about tour access in the chapter <a href="#tour-access">Tour Access</a>.</p>
+
+</div>
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="isStandalone"
+         data-search-id="confval-tour-definition-isstandalone"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">isStandalone</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-isstandalone"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">is<wbr>Standalone</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-isstandalone"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-isstandalone"
+                       data-rstCode=":ref:`isStandalone &lt;typo3-interactive-tour:confval-tour-definition-isstandalone&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">bool
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Indicates whether the tour is standalone (i.e., a single step not bound to any element).
+</div>
+<div class="line">
+    Such tours are rendered automatically when the user logs in to the backend (they should not be bound to any module).
+</div>
+<div class="line">
+    Their purpose is to provide general information, welcome messages, or similar content.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="skipButtonText"
+         data-search-id="confval-tour-definition-skipbuttontext"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">skipButtonText</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-skipbuttontext"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">skip<wbr>Button<wbr>Text</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-skipbuttontext"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-skipbuttontext"
+                       data-rstCode=":ref:`skipButtonText &lt;typo3-interactive-tour:confval-tour-definition-skipbuttontext&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Custom text for the <em>Skip</em> step button.
+</div>
+<div class="line">
+    Translations are supported. For example, <code class="code-inline" translate="no">LLL:<wbr>EXT:<wbr>typo3-<wbr>interactive-<wbr>tour/<wbr>Resources/<wbr>Private/<wbr>Language/<wbr>locallang.<wbr>xlf:<wbr>tour.<wbr>skip<wbr>Button<wbr>Text</code>.
+</div>
+<div class="line">
+    If not set, the default text is used.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="previousButtonText"
+         data-search-id="confval-tour-definition-previousbuttontext"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">previousButtonText</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-previousbuttontext"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">previous<wbr>Button<wbr>Text</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-previousbuttontext"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-previousbuttontext"
+                       data-rstCode=":ref:`previousButtonText &lt;typo3-interactive-tour:confval-tour-definition-previousbuttontext&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Custom text for the <em>Previous</em> step button. Each step can override this setting.
+</div>
+<div class="line">
+    Translations are supported. For example, <code class="code-inline" translate="no">LLL:<wbr>EXT:<wbr>typo3-<wbr>interactive-<wbr>tour/<wbr>Resources/<wbr>Private/<wbr>Language/<wbr>locallang.<wbr>xlf:<wbr>tour.<wbr>previous<wbr>Button<wbr>Text</code>.
+</div>
+<div class="line">
+    If not set, the default text is used.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="nextButtonText"
+         data-search-id="confval-tour-definition-nextbuttontext"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">nextButtonText</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-nextbuttontext"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">next<wbr>Button<wbr>Text</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-nextbuttontext"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-nextbuttontext"
+                       data-rstCode=":ref:`nextButtonText &lt;typo3-interactive-tour:confval-tour-definition-nextbuttontext&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Custom text for the <em>Next</em> step button. Each step can override this setting.
+</div>
+<div class="line">
+    Translations are supported. For example, <code class="code-inline" translate="no">LLL:<wbr>EXT:<wbr>typo3-<wbr>interactive-<wbr>tour/<wbr>Resources/<wbr>Private/<wbr>Language/<wbr>locallang.<wbr>xlf:<wbr>tour.<wbr>next<wbr>Button<wbr>Text</code>.
+</div>
+<div class="line">
+    If not set, the default text is used.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="finishButtonText"
+         data-search-id="confval-tour-definition-finishbuttontext"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">finishButtonText</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-finishbuttontext"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">finish<wbr>Button<wbr>Text</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-finishbuttontext"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-finishbuttontext"
+                       data-rstCode=":ref:`finishButtonText &lt;typo3-interactive-tour:confval-tour-definition-finishbuttontext&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Custom text for the <em>Finish</em> button. Each step can override this setting.
+</div>
+<div class="line">
+    Translations are supported. For example, <code class="code-inline" translate="no">LLL:<wbr>EXT:<wbr>typo3-<wbr>interactive-<wbr>tour/<wbr>Resources/<wbr>Private/<wbr>Language/<wbr>locallang.<wbr>xlf:<wbr>tour.<wbr>finish<wbr>Button<wbr>Text</code>.
+</div>
+<div class="line">
+    If not set, the default text is used.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="nextTourIdentifier"
+         data-search-id="confval-tour-definition-nexttouridentifier"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">nextTourIdentifier</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-nexttouridentifier"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">next<wbr>Tour<wbr>Identifier</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-nexttouridentifier"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-nexttouridentifier"
+                       data-rstCode=":ref:`nextTourIdentifier &lt;typo3-interactive-tour:confval-tour-definition-nexttouridentifier&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Identifier of the next tour to be started after this one finishes.
+</div>
+<div class="line">
+    This is useful to create a sequence of tours that guide the user through different parts of the backend.
+</div>
+<div class="line">
+    The user must have access to the next tour for it to be started.
+</div>
+
+</div>
+    
+<div class="admonition note" role="alert">
+    <p class="admonition-title">Note</p>
+            
+    <p>Even is set, not always the next tour will be started. It depends on the user&#039;s permissions. Read more about tour access in the chapter <a href="#tour-access">Tour Access</a>.</p>
+
+</div>
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="steps"
+         data-search-id="confval-tour-definition-steps"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">steps</h3>
+    <dl class="confval">
+        <dt id="confval-tour-definition-steps"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">steps</span></code>
+                                    <a class="headerlink" href="#confval-tour-definition-steps"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-definition-steps"
+                       data-rstCode=":ref:`steps &lt;typo3-interactive-tour:confval-tour-definition-steps&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">array
+                        </dd>
+                                            <dt class="field-odd">Required</dt>
+                        <dd class="field-odd"><p>true</p>
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>Array of steps for the tour. See <a href="#configure-steps">Configure steps</a>.</p>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+    
+            
+    <p>Example:</p>
+
+            <div class="code-block-wrapper" translate="no">
+            
+    <pre class="code-block"><code class="hljs yaml"><span class="hljs-attr">identifier:</span> <span class="hljs-string">vendor/shopProducts</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">'Introduction to Products Management Module'</span>
+<span class="hljs-attr">description:</span> <span class="hljs-string">'This tour introduces the basics of the Products module. Learn how to manage your product listings.'</span>
+<span class="hljs-attr">moduleName:</span> <span class="hljs-string">'shop_products'</span>
+<span class="hljs-attr">isStandalone:</span> <span class="hljs-literal">false</span>
+<span class="hljs-attr">enableInteraction:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">previousButtonText:</span> <span class="hljs-string">'Back'</span>
+<span class="hljs-attr">nextButtonText:</span> <span class="hljs-string">'Next'</span>
+<span class="hljs-attr">finishButtonText:</span> <span class="hljs-string">'Done'</span>
+<span class="hljs-attr">nextTourIdentifier:</span> <span class="hljs-string">vendor/shopCategories</span>
+<span class="hljs-attr">steps:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">title:</span> <span class="hljs-string">'Product List View'</span>
+    <span class="hljs-attr">content:</span> <span class="hljs-string">'This section displays all the products in your catalog. You can filter, sort, and search through the list.'</span>
+    <span class="hljs-attr">target:</span> <span class="hljs-string">'.products-list-container'</span>
+    <span class="hljs-attr">frame:</span> <span class="hljs-string">'content'</span>
+    <span class="hljs-attr">side:</span> <span class="hljs-string">'top'</span>
+    <span class="hljs-attr">align:</span> <span class="hljs-string">'start'</span>
+    <span class="hljs-attr">enableInteraction:</span> <span class="hljs-literal">false</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">title:</span> <span class="hljs-string">'Add New Product'</span>
+    <span class="hljs-attr">content:</span> <span class="hljs-string">'Click this button to create a new product entry.'</span>
+    <span class="hljs-attr">target:</span> <span class="hljs-string">'button.new-product-button'</span>
+    <span class="hljs-attr">frame:</span> <span class="hljs-string">'content'</span>
+    <span class="hljs-attr">side:</span> <span class="hljs-string">'right'</span>
+    <span class="hljs-attr">align:</span> <span class="hljs-string">'center'</span>
+    <span class="hljs-attr">enableInteraction:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">title:</span> <span class="hljs-string">'Product Details'</span>
+    <span class="hljs-attr">content:</span> <span class="hljs-string">'Here you can enter details like product name, description, and price.'</span>
+    <span class="hljs-attr">target:</span> <span class="hljs-string">'.product-form'</span>
+    <span class="hljs-attr">frame:</span> <span class="hljs-string">'content'</span>
+    <span class="hljs-attr">side:</span> <span class="hljs-string">'bottom'</span>
+    <span class="hljs-attr">align:</span> <span class="hljs-string">'center'</span>
+    <span class="hljs-attr">enableInteraction:</span> <span class="hljs-literal">false</span></code></pre>
+    <div class="code-block-actions">        <button class="code-block-copy" title="Copy to clipboard">
+            <i class="icon fa-regular fa-copy code-block-copy-icon"></i>
+            <i class="fa-solid fa-check code-block-check-icon code-block-hide"></i>
+        </button>
+        <span class="code-block-check-tooltip code-block-hide" aria-live="polite">Copied!</span>
+    </div>
+</div>
+    </section>
+            <section class="section" id="configure-steps" data-rst-anchor="configure-steps">
+            <a id="configure-steps"></a>
+            <h2>Configure steps<a class="headerlink" href="#configure-steps" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h2>
+            
+    <p>Each step should be configured as a separate array item.
+The following properties are available:</p>
+
+            
+
+
+
+
+<div class="table-responsive confval-table" id="confval-menu-tour-step">
+    <table class="table table-hover caption-top">        <thead>
+        <tr>
+            <th scope="col">Name</th>
+            
+                                    <th scope="col">Type</th>
+                            
+                                    <th scope="col">Required</th>
+                                    </tr>
+        </thead>
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-title">title</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+            true                        </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-content">content</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+            true                        </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-target">target</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-frame">frame</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-side">side</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-align">align</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-enableinteraction">enable<wbr>Interaction</a></div></td>
+                    <td>
+                            bool
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-previousbuttontext">previous<wbr>Button<wbr>Text</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-nextbuttontext">next<wbr>Button<wbr>Text</a></div></td>
+                    <td>
+                            string
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-requireuseractions">require<wbr>User<wbr>Actions</a></div></td>
+                    <td>
+                            bool
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-events">events</a></div></td>
+                    <td>
+                            array
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-sleep">sleep</a></div></td>
+                    <td>
+                            int
+                        </td>
+                    <td>
+                                    </td>
+            </tr>
+                
+            </table>
+</div>
+            <section data-search-title="title"
+         data-search-id="confval-tour-step-title"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">title</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-title"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">title</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-title"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-title"
+                       data-rstCode=":ref:`title &lt;typo3-interactive-tour:confval-tour-step-title&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                                            <dt class="field-odd">Required</dt>
+                        <dd class="field-odd"><p>true</p>
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>Title displayed in the step popup.</p>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="content"
+         data-search-id="confval-tour-step-content"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">content</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-content"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">content</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-content"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-content"
+                       data-rstCode=":ref:`content &lt;typo3-interactive-tour:confval-tour-step-content&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                                            <dt class="field-odd">Required</dt>
+                        <dd class="field-odd"><p>true</p>
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>Content of the popup for this step.</p>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="target"
+         data-search-id="confval-tour-step-target"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">target</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-target"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">target</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-target"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-target"
+                       data-rstCode=":ref:`target &lt;typo3-interactive-tour:confval-tour-step-target&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    JavaScript-supported CSS selector used to highlight/select the target element on the page.
+</div>
+<div class="line">
+    You can use common selectors like element names, IDs, classes, or attributes such as <code class="code-inline" translate="no">data-*</code>.
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    Examples:
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">#element-<wbr>id </code>– select by ID
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">.my-<wbr>class</code> – select by class name
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">button<wbr>[data-<wbr>action=&quot;save&quot;]</code> – select a button with a specific data attribute
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">input<wbr>[name=&quot;product<wbr>Name&quot;]</code> – select an input field by its name attribute
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    These selectors follow standard querySelector rules and should uniquely point to the desired UI element.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="frame"
+         data-search-id="confval-tour-step-frame"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">frame</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-frame"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">frame</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-frame"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-frame"
+                       data-rstCode=":ref:`frame &lt;typo3-interactive-tour:confval-tour-step-frame&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    JavaScript-supported CSS selector pointing to the iframe in which the target element exists.
+</div>
+<div class="line">
+    Use common selectors such as ID, class, name, or data attributes to identify the iframe.
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    Examples:
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">iframe#content-<wbr>frame</code> – select an iframe by ID
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">iframe.<wbr>module-<wbr>frame</code> – select an iframe by class
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">iframe<wbr>[data-<wbr>frame=&quot;product<wbr>Frame&quot;]</code> – select an iframe using a custom data attribute
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">iframe<wbr>[name=&quot;list<wbr>Frame&quot;]</code> – select an iframe by its name attribute
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    The selector must match a valid iframe element in the TYPO3 backend.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="side"
+         data-search-id="confval-tour-step-side"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">side</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-side"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">side</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-side"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-side"
+                       data-rstCode=":ref:`side &lt;typo3-interactive-tour:confval-tour-step-side&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>Position of the popup relative to the target element. Allowed values: <code class="code-inline" translate="no">top</code>, <code class="code-inline" translate="no">right</code>, <code class="code-inline" translate="no">bottom</code>, <code class="code-inline" translate="no">left</code>.</p>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="align"
+         data-search-id="confval-tour-step-align"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">align</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-align"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">align</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-align"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-align"
+                       data-rstCode=":ref:`align &lt;typo3-interactive-tour:confval-tour-step-align&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>Alignment of the popup relative to the target. Allowed values: <code class="code-inline" translate="no">start</code>, <code class="code-inline" translate="no">center</code>, <code class="code-inline" translate="no">end</code>.</p>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="enableInteraction"
+         data-search-id="confval-tour-step-enableinteraction"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">enableInteraction</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-enableinteraction"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">enable<wbr>Interaction</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-enableinteraction"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-enableinteraction"
+                       data-rstCode=":ref:`enableInteraction &lt;typo3-interactive-tour:confval-tour-step-enableinteraction&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">bool
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>Whether the user can interact with the highlighted area during the step.</p>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="previousButtonText"
+         data-search-id="confval-tour-step-previousbuttontext"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">previousButtonText</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-previousbuttontext"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">previous<wbr>Button<wbr>Text</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-previousbuttontext"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-previousbuttontext"
+                       data-rstCode=":ref:`previousButtonText &lt;typo3-interactive-tour:confval-tour-step-previousbuttontext&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Custom text for the <em>Previous</em> step button (overrides tour-level setting if defined).
+</div>
+<div class="line">
+    Translations are supported. For example, <code class="code-inline" translate="no">LLL:<wbr>EXT:<wbr>typo3-<wbr>interactive-<wbr>tour/<wbr>Resources/<wbr>Private/<wbr>Language/<wbr>locallang.<wbr>xlf:<wbr>step.<wbr>previous<wbr>Button<wbr>Text</code>.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="nextButtonText"
+         data-search-id="confval-tour-step-nextbuttontext"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">nextButtonText</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-nextbuttontext"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">next<wbr>Button<wbr>Text</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-nextbuttontext"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-nextbuttontext"
+                       data-rstCode=":ref:`nextButtonText &lt;typo3-interactive-tour:confval-tour-step-nextbuttontext&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Custom text for the <em>Next</em> step button (overrides tour-level setting if defined).
+</div>
+<div class="line">
+    Translations are supported. For example, <code class="code-inline" translate="no">LLL:<wbr>EXT:<wbr>typo3-<wbr>interactive-<wbr>tour/<wbr>Resources/<wbr>Private/<wbr>Language/<wbr>locallang.<wbr>xlf:<wbr>step.<wbr>next<wbr>Button<wbr>Text</code>.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="requireUserActions"
+         data-search-id="confval-tour-step-requireuseractions"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">requireUserActions</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-requireuseractions"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">require<wbr>User<wbr>Actions</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-requireuseractions"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-requireuseractions"
+                       data-rstCode=":ref:`requireUserActions &lt;typo3-interactive-tour:confval-tour-step-requireuseractions&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">bool
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Used to define if events of the <code class="code-inline" translate="no">user<wbr>Actions</code> group (check <a href="#confval-tour-step-events">events</a> property) are required to perform by the user.
+</div>
+<div class="line">
+    If the the <code class="code-inline" translate="no">user<wbr>Actions</code> group in the <code class="code-inline" translate="no">events</code> property is node defined, this property is ignored.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="events"
+         data-search-id="confval-tour-step-events"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">events</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-events"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">events</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-events"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-events"
+                       data-rstCode=":ref:`events &lt;typo3-interactive-tour:confval-tour-step-events&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">array
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Array of custom JavaScript events that should be triggered during the step.
+</div>
+<div class="line">
+    They can be assigned to 3 different groups: <code class="code-inline" translate="no">on<wbr>Show</code>, <code class="code-inline" translate="no">on<wbr>Exit</code>, <code class="code-inline" translate="no">user<wbr>Actions</code>.
+</div>
+<div class="line">
+    Read more about events in the chapter <a href="#configure-steps-events">Configure steps events</a>.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="sleep"
+         data-search-id="confval-tour-step-sleep"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">sleep</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-sleep"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">sleep</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-sleep"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-sleep"
+                       data-rstCode=":ref:`sleep &lt;typo3-interactive-tour:confval-tour-step-sleep&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">int
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Time to wait before the step content is displayed.
+</div>
+<div class="line">
+    This is sometimes needed to be able to highlight related target element inside the iframe.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+    
+            
+    <p>Example:</p>
+
+            <div class="code-block-wrapper" translate="no">
+            
+    <pre class="code-block"><code class="hljs yaml"><span class="hljs-attr">steps:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">title:</span> <span class="hljs-string">'Product List View'</span>
+    <span class="hljs-attr">content:</span> <span class="hljs-string">'This section displays all the products in your catalog. You can filter, sort, and search through the list.'</span>
+    <span class="hljs-attr">target:</span> <span class="hljs-string">'.products-list-container'</span>
+    <span class="hljs-attr">frame:</span> <span class="hljs-string">'content'</span>
+    <span class="hljs-attr">side:</span> <span class="hljs-string">'top'</span>
+    <span class="hljs-attr">align:</span> <span class="hljs-string">'start'</span>
+    <span class="hljs-attr">enableInteraction:</span> <span class="hljs-literal">false</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">title:</span> <span class="hljs-string">'Add New Product'</span>
+    <span class="hljs-attr">content:</span> <span class="hljs-string">'Click this button to create a new product entry.'</span>
+    <span class="hljs-attr">target:</span> <span class="hljs-string">'button.new-product-button'</span>
+    <span class="hljs-attr">frame:</span> <span class="hljs-string">'content'</span>
+    <span class="hljs-attr">side:</span> <span class="hljs-string">'right'</span>
+    <span class="hljs-attr">align:</span> <span class="hljs-string">'center'</span>
+    <span class="hljs-attr">enableInteraction:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">title:</span> <span class="hljs-string">'Product Details'</span>
+    <span class="hljs-attr">content:</span> <span class="hljs-string">'Here you can enter details like product name, description, and price.'</span>
+    <span class="hljs-attr">target:</span> <span class="hljs-string">'.product-form'</span>
+    <span class="hljs-attr">frame:</span> <span class="hljs-string">'content'</span>
+    <span class="hljs-attr">side:</span> <span class="hljs-string">'bottom'</span>
+    <span class="hljs-attr">align:</span> <span class="hljs-string">'center'</span>
+    <span class="hljs-attr">enableInteraction:</span> <span class="hljs-literal">false</span></code></pre>
+    <div class="code-block-actions">        <button class="code-block-copy" title="Copy to clipboard">
+            <i class="icon fa-regular fa-copy code-block-copy-icon"></i>
+            <i class="fa-solid fa-check code-block-check-icon code-block-hide"></i>
+        </button>
+        <span class="code-block-check-tooltip code-block-hide" aria-live="polite">Copied!</span>
+    </div>
+</div>
+    </section>
+            <section class="section" id="configure-steps-events" data-rst-anchor="configure-steps-events">
+            <a id="configure-steps-events"></a>
+            <h2>Configure steps events<a class="headerlink" href="#configure-steps-events" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h2>
+            
+    <p>Each step can contain an <code class="code-inline" translate="no">events</code> property to define custom JavaScript events.
+These events can be assigned to 3 different groups:</p>
+
+            
+
+<ul>
+    <li><code class="code-inline"
+          translate="no"
+          data-bs-toggle="modal"
+          data-bs-target="#generalModal"
+          data-code="onShow"
+          data-shortdescription="Code written in JavaScript"
+          data-details="Dynamic client-side scripting language for dynamic applications."
+          data-morelink=""          data-bs-html="true"
+    >
+        on<wbr>Show</code>: events that are triggered when the step is shown</li>
+    <li><code class="code-inline"
+          translate="no"
+          data-bs-toggle="modal"
+          data-bs-target="#generalModal"
+          data-code="onExit"
+          data-shortdescription="Code written in JavaScript"
+          data-details="Dynamic client-side scripting language for dynamic applications."
+          data-morelink=""          data-bs-html="true"
+    >
+        on<wbr>Exit</code>: events that are triggered when the step is hidden</li>
+    <li><code class="code-inline code-inline-long"
+          translate="no"
+          data-bs-toggle="modal"
+          data-bs-target="#generalModal"
+          data-code="userActions"
+          data-shortdescription="Code written in JavaScript"
+          data-details="Dynamic client-side scripting language for dynamic applications."
+          data-morelink=""          data-bs-html="true"
+    >
+        user<wbr>Actions</code>: events that should be triggered by the user</li>
+</ul>
+
+                
+<div class="admonition note" role="alert">
+    <p class="admonition-title">Note</p>
+            
+    <p>The <code class="code-inline code-inline-long"
+          translate="no"
+          data-bs-toggle="modal"
+          data-bs-target="#generalModal"
+          data-code="userActions"
+          data-shortdescription="Code written in JavaScript"
+          data-details="Dynamic client-side scripting language for dynamic applications."
+          data-morelink=""          data-bs-html="true"
+    >
+        user<wbr>Actions</code> events will not be required if the <a href="#confval-tour-step-requireuseractions">requireUserActions</a> property is set to <code class="code-inline" translate="no">false</code> on step level</p>
+
+</div>
+            
+
+
+
+
+<div class="table-responsive confval-table" id="confval-menu-tour-step-events">
+    <table class="table table-hover caption-top">        <thead>
+        <tr>
+            <th scope="col">Name</th>
+            
+                                    <th scope="col">Type</th>
+                                    </tr>
+        </thead>
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-event">event</a></div></td>
+                    <td>
+                            string
+                        </td>
+            </tr>
+                            
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-target">target</a></div></td>
+                    <td>
+                            string
+                        </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-delaybefore">delay<wbr>Before</a></div></td>
+                    <td>
+                            integer
+                        </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-delayafter">delay<wbr>After</a></div></td>
+                    <td>
+                            integer
+                        </td>
+            </tr>
+                
+                        <tr>
+        <td><div class="confval-label ps-0"><a href="#confval-tour-step-frame">frame</a></div></td>
+                    <td>
+                            string
+                        </td>
+            </tr>
+                
+            </table>
+</div>
+            <section data-search-title="event"
+         data-search-id="confval-tour-step-event"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">event</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-event"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">event</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-event"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-event"
+                       data-rstCode=":ref:`event &lt;typo3-interactive-tour:confval-tour-step-event&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>The JavaScript event to be triggered.</p>
+<dl>
+                        <dt>Allowed values:</dt>
+        
+        <dd>
+
+<ul>
+    <li class="dash"><code class="code-inline" translate="no">click</code></li>
+    <li class="dash"><code class="code-inline" translate="no">keypress</code></li>
+    <li class="dash"><code class="code-inline" translate="no">focus</code></li>
+    <li class="dash"><code class="code-inline" translate="no">blur</code></li>
+    <li class="dash"><code class="code-inline" translate="no">change</code></li>
+    <li class="dash"><code class="code-inline" translate="no">input</code></li>
+    <li class="dash"><code class="code-inline" translate="no">resize</code></li>
+    <li class="dash"><code class="code-inline" translate="no">contextmenu</code></li>
+    <li class="dash"><code class="code-inline" translate="no">drag</code></li>
+    <li class="dash"><code class="code-inline" translate="no">drop</code></li>
+</ul>
+</dd>
+            </dl>
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="target"
+         data-search-id="confval-tour-step-target"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">target</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-target"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">target</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-target"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-target"
+                       data-rstCode=":ref:`target &lt;typo3-interactive-tour:confval-tour-step-target&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    JavaScript-supported CSS selector used to highlight/select the target element on the page.
+</div>
+<div class="line">
+    You can use common selectors like element names, IDs, classes, or attributes such as <code class="code-inline" translate="no">data-*</code>.
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    Examples:
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">#element-<wbr>id </code>– select by ID
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">.my-<wbr>class</code> – select by class name
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">button<wbr>[data-<wbr>action=&quot;save&quot;]</code> – select a button with a specific data attribute
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">input<wbr>[name=&quot;product<wbr>Name&quot;]</code> – select an input field by its name attribute
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    These selectors follow standard querySelector rules and should uniquely point to the desired UI element.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="delayBefore"
+         data-search-id="confval-tour-step-delaybefore"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">delayBefore</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-delaybefore"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">delay<wbr>Before</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-delaybefore"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-delaybefore"
+                       data-rstCode=":ref:`delayBefore &lt;typo3-interactive-tour:confval-tour-step-delaybefore&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">integer
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    Delay before the event is triggered (in miliseconds).
+</div>
+<div class="line">
+    In certain cases, triggering an event on an element must be delayed to ensure that the element is ready for interaction.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="delayAfter"
+         data-search-id="confval-tour-step-delayafter"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">delayAfter</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-delayafter"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">delay<wbr>After</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-delayafter"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-delayafter"
+                       data-rstCode=":ref:`delayAfter &lt;typo3-interactive-tour:confval-tour-step-delayafter&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">integer
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                
+    <p>| Delay after the event is triggered (in miliseconds).</p>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+                <section data-search-title="frame"
+         data-search-id="confval-tour-step-frame"
+         data-search-facet="Option"
+         class="confval-section"
+>
+    <h3 class="sr-only">frame</h3>
+    <dl class="confval">
+        <dt id="confval-tour-step-frame"            class="d-flex justify-content-between">
+            <div class="confval-header flex-grow-1">
+                <code class="sig-name descname"><span
+                        class="pre">frame</span></code>
+                                    <a class="headerlink" href="#confval-tour-step-frame"
+                       data-bs-toggle="modal"
+                       data-bs-target="#linkReferenceModal"
+                       data-id="confval-tour-step-frame"
+                       data-rstCode=":ref:`frame &lt;typo3-interactive-tour:confval-tour-step-frame&gt;`"
+                       title="Reference this configuration value"><i
+                            class="fa-solid fa-paragraph"></i></a>
+                </div>
+            <div class="confval-back-to-top">                    <a href="#" class="backToTop" title="Back to top"><i
+                            class="fa-solid fa-arrow-up fa-xs"></i></a>            </div>        </dt>
+        <dd>
+                            <dl class="field-list simple">
+                                            <dt class="field-even">Type</dt>
+                        <dd class="field-even">string
+                        </dd>
+                    </dl>
+                        <div class="confval-description">
+                <div class="line-block">
+    <div class="line">
+    JavaScript-supported CSS selector pointing to the iframe in which the event has to be triggered.
+</div>
+<div class="line">
+    Use common selectors such as ID, class, name, or data attributes to identify the iframe.
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    Examples:
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">iframe#content-<wbr>frame</code> – select an iframe by ID
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">iframe.<wbr>module-<wbr>frame</code> – select an iframe by class
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">iframe<wbr>[data-<wbr>frame=&quot;product<wbr>Frame&quot;]</code> – select an iframe using a custom data attribute
+</div>
+<div class="line">
+    <code class="code-inline" translate="no">iframe<wbr>[name=&quot;list<wbr>Frame&quot;]</code> – select an iframe by its name attribute
+</div>
+<div class="line">
+    <br>
+</div>
+<div class="line">
+    The selector must match a valid iframe element in the TYPO3 backend.
+</div>
+
+</div>
+
+            </div>
+        </dd>
+    </dl>
+</section>
+    
+    </section>
+    </section>
+
+        </article>
+<article>
+            <section class="section" id="tour-access">
+            <h1>Tour Access<a class="headerlink" href="#tour-access" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            
+    <p>Most TYPO3 core tours, as well as those provided by extension authors, are bound to specific backend modules.
+This means a tour will only be displayed when the user is in the corresponding module and has access to it.</p>
+
+            
+    <p>It&#039;s important to note that if a user does not have access to a particular module, the related tour will not be displayed - it won&#039;t even appear in the dedicated <code class="code-inline" translate="no">Guids</code> module.</p>
+
+            
+    <p>On the Tour level configuration, it is also possible to define more specific access conditions through the <a href="#confval-tour-definition-permissions">permission</a> setting.
+If those permissions are not met, the tour will not be displayed even if the user has access to the module.</p>
+
+    </section>
+
+        </article>
+<article>
+            <section class="section" id="backend-module">
+            <h1>Backend Module<a class="headerlink" href="#backend-module" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            
+    <p>The <code class="code-inline" translate="no">Guide</code> module is a dedicated section in the TYPO3 backend that allows you to manage tours and track user progress.
+To view this module, the user must be granted access to it.</p>
+
+            <section class="section" id="functions-offered-by-the-guide-module" data-rst-anchor="guide-module-functions">
+            <a id="guide-module-functions"></a>
+            <h2>Functions offered by the Guide module<a class="headerlink" href="#functions-offered-by-the-guide-module" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h2>
+            
+    <p>The main role of the <em>Guide</em> module is to provide an overview of all available tours and their progress.
+Users can:</p>
+
+            
+
+<ul>
+    <li>View all tours they have access to</li>
+    <li>Start a selected tour</li>
+    <li>Continue a tour that has already been started</li>
+    <li>Reset a tour (start over)</li>
+    <li>View the progress of a tour (how many steps have been completed)</li>
+</ul>
+
+    </section>
+    </section>
+
+        </article>
+<article>
+            <section class="section" id="tour-overview">
+            <h1>Tour Overview<a class="headerlink" href="#tour-overview" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            
+    <p>Administrators can view all available tour configurations in the backend <em>Configuration</em> module.</p>
+
+            <div class="line-block">
+    <div class="line">
+    A new menu entry called <em>Backend Guide Tours</em> lists all tours defined through YAML files in a structured way.
+</div>
+<div class="line">
+    This overview displays all configured tours, without applying any access restrictions.
+</div>
+
+</div>
+
+    </section>
+
+        </article>
+<article>
+            <section class="section" id="frequently-asked-questions-faq" data-rst-anchor="faq">
+            <a id="faq"></a>
+            <h1>Frequently Asked Questions (FAQ)<a class="headerlink" href="#frequently-asked-questions-faq" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            <div class="accordion" id="accordion-parent-faq">
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="accordion-installation-heading">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-installation"
+                        aria-expanded="true" aria-controls="accordion-installation">
+                    How can I install this extension?
+                </button>
+            </h2>
+            <div id="accordion-installation" class="accordion-collapse collapse show" aria-labelledby="accordion-installation-heading"
+                 data-bs-parent="#accordion-parent-faq">
+                <div class="accordion-body">
+                    
+    <p>See chapter <a href="#installation">Installation</a>.</p>
+
+                </div>
+            </div>
+        </div>        <div class="accordion-item">
+            <h2 class="accordion-header" id="accordion-tour-configuration-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-tour-configuration"
+                        aria-expanded="false" aria-controls="accordion-tour-configuration">
+                    How can I create my own interactive tour?
+                </button>
+            </h2>
+            <div id="accordion-tour-configuration" class="accordion-collapse collapse" aria-labelledby="accordion-tour-configuration-heading"
+                 data-bs-parent="#accordion-parent-faq">
+                <div class="accordion-body">
+                    
+    <p>For a detailed guide on configuring new tours, see the chapter <a href="#tour-configuration">Tour Configuration</a>.</p>
+
+                </div>
+            </div>
+        </div>        <div class="accordion-item">
+            <h2 class="accordion-header" id="accordion-tours-access-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-tours-access"
+                        aria-expanded="false" aria-controls="accordion-tours-access">
+                    My user cant see any tours. Why?
+                </button>
+            </h2>
+            <div id="accordion-tours-access" class="accordion-collapse collapse" aria-labelledby="accordion-tours-access-heading"
+                 data-bs-parent="#accordion-parent-faq">
+                <div class="accordion-body">
+                    
+    <p>The user will only see tours they have access to. For more information, see the chapter <a href="#tour-access">Tour Access</a>.</p>
+
+                </div>
+            </div>
+        </div>        <div class="accordion-item">
+            <h2 class="accordion-header" id="accordion-backend-module-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-backend-module"
+                        aria-expanded="false" aria-controls="accordion-backend-module">
+                    Can i track progress of my tours?
+                </button>
+            </h2>
+            <div id="accordion-backend-module" class="accordion-collapse collapse" aria-labelledby="accordion-backend-module-heading"
+                 data-bs-parent="#accordion-parent-faq">
+                <div class="accordion-body">
+                    
+    <p>Yes, you can view all tours and their progress in the dedicated Guided Tours module. For more information, see the chapter <a href="#backend-module">Backend Module</a>.</p>
+
+                </div>
+            </div>
+        </div>        <div class="accordion-item">
+            <h2 class="accordion-header" id="accordion-help-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-help"
+                        aria-expanded="false" aria-controls="accordion-help">
+                    Where to get help?
+                </button>
+            </h2>
+            <div id="accordion-help" class="accordion-collapse collapse" aria-labelledby="accordion-help-heading"
+                 data-bs-parent="#accordion-parent-faq">
+                <div class="accordion-body">
+                    
+    <p>See chapter <a href="#help">Where to get help</a>.</p>
+
+                </div>
+            </div>
+        </div></div>
+    </section>
+
+        </article>
+<article>
+            <section class="section" id="where-to-get-help" data-rst-anchor="help">
+            <a id="help"></a>
+            <h1>Where to get help<a class="headerlink" href="#where-to-get-help" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h1>
+            
+    <p>You can get help in the TYPO3 Slack <a href="https://typo3.org/community/meet/chat-slack">https://typo3.org/community/meet/chat-slack</a>,
+Ask a question in the official TYPO3 forum, <a href="https://talk.typo3.org/c/typo3-questions/19">https://talk.typo3.org/c/typo3-questions/19</a>
+or contact the extension author.</p>
+
+            <section class="section" id="report-issues" data-rst-anchor="report-issues">
+            <a id="report-issues"></a>
+            <h2>Report Issues<a class="headerlink" href="#report-issues" data-bs-toggle="modal" data-bs-target="#linkReferenceModal"  title="Reference this headline"><i class="fa-solid fa-paragraph"></i></a></h2>
+            
+    <p>You can report issues at <a href="https://github.com/macopedia/typo3-interactive-tour/issues">https://github.com/macopedia/typo3-interactive-tour/issues</a>.</p>
+
+    </section>
+    </section>
+
+        </article>
+<!-- content end -->
+                                                        </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal fade" id="linkReferenceModal" tabindex="-1" aria-labelledby="linkReferenceModalLabel"
+    aria-hidden="true" data-current-filename="" data-interlink-shortcode="typo3-interactive-tour">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="linkReferenceModalLabel">Reference to the headline</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-success d-none" id="permalink-alert-success" role="alert"></div>
+                <div class="mb-3">
+                    <label for="permalink-uri" class="col-form-label">URL</label>
+                    <div class="input-group">
+                        <input class="form-control code" id="permalink-uri" readonly>
+                        <button type="button" class="btn btn-outline-secondary copy-button" data-target="permalink-uri"><i class="far fa-clone"></i></button>
+                    </div>
+                    <div class="permalink-short-wrapper">
+                        <label for="permalink-short" class="col-form-label">Permalink (Shortlink)</label>
+                        <div class="input-group">
+                            <input class="form-control code" id="permalink-short" readonly>
+                            <button type="button" class="btn btn-outline-secondary copy-button" data-target="permalink-short"><i class="far fa-clone"></i></button>
+                        </div>
+                        <p><em>Copy and freely share the link</em></p>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="alert alert-warning alert-permalink-rst" role="alert">This link target has no permanent anchor assigned.The link below can be used, but is prone to change if the page gets moved.
+                    </div>
+                    <label for="permalink-rst" class="col-form-label">Link in reStructuredText (reST)</label>
+                    <div class="input-group">
+                        <textarea class="form-control code" id="permalink-rst" readonly></textarea>
+                        <button type="button" class="btn btn-outline-secondary copy-button" data-target="permalink-rst"><i class="far fa-clone"></i></button>
+                    </div>
+                    <p><em>Copy this link into your TYPO3 manual.</em></p>
+                </div>
+                <div class="mb-3">
+                    <label for="permalink-md" class="col-form-label">Link in Markdown</label>
+                    <div class="input-group">
+                        <textarea class="form-control code" id="permalink-md" readonly></textarea>
+                        <button type="button" class="btn btn-outline-secondary copy-button" data-target="permalink-md"><i class="far fa-clone"></i></button>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="permalink-html" class="col-form-label">Link in HTML</label>
+                                        <div class="input-group">
+                        <textarea class="form-control code" id="permalink-html" readonly></textarea>
+                        <button type="button" class="btn btn-outline-secondary copy-button" data-target="permalink-html"><i class="far fa-clone"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>    <div class="modal fade" id="generalModal" tabindex="-1" aria-labelledby="linkReferenceModalLabel"
+    aria-hidden="true" data-current-filename=""
+>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="generalModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-success d-none" id="general-alert-success" role="alert"></div>
+                <div id="generalModalContent">
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <div id="generalModalCustomButtons"></div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa-regular fa-circle-xmark"></i>&nbsp;Close</button>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+
+<footer class="page-footer">
+    <div class="frame frame-ruler-before frame-background-dark">
+        <div class="frame-container">
+            <div class="frame-inner">
+                <ul class="footer-simplemenu">
+                        <li><a href="https://github.com/macopedia/typo3-interactive-tour" title="Home" rel="nofollow noopener"><span>Home</span></a></li>
+                                                                        <li><a href="https://github.com/macopedia/typo3-interactive-tour/issues" rel="nofollow noopener" title="Issues"><span>Issues</span></a></li>
+                                                <li><a href="https://github.com/macopedia/typo3-interactive-tour" rel="nofollow noopener" title="Repository"><span>Repository</span></a></li>
+                                            </ul>                <div class="footer-additional">
+                    <p class="text-center">Last rendered: Mar 31, 2025 17:46</p>
+                </div>
+                <div class="footer-meta">
+                                        <div class="footer-meta-copyright">
+                        &copy; The contributors
+                    </div>
+                    <ul class="footer-meta-navigation">
+                        <li><a href="https://typo3.org/legal-notice" rel="nofollow" target="_blank" title="Legal Notice">Legal Notice</a></li>
+                        <li><a href="https://typo3.org/privacy-policy" rel="nofollow" target="_blank" title="Privacy Policy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="../_resources/js/popper.min.js"></script>
+<script src="../_resources/js/bootstrap.min.js"></script>
+<script src="../_resources/js/theme.min.js"></script>
+
+<!--
+ Locally rendered. No tracking embedded.
+-->
+</body>
+</html>

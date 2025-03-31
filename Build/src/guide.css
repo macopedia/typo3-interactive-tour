@@ -1,0 +1,51 @@
+.driver-popover-footer .driver-popover-next-btn {
+  background-color: var(--typo3-state-primary-bg);
+  color: var(--typo3-state-primary-color);
+  border-color: var(--typo3-state-primary-border-color);
+  text-shadow: none;
+}
+
+.driver-popover-footer .driver-popover-next-btn:hover {
+  background-color: var(--typo3-state-primary-hover-bg);
+  color: var(--typo3-state-primary-hover-color);
+  border-color: var(--typo3-state-primary-hover-border-color);
+}
+
+.driver-popover-footer .driver-popover-next-btn:focus {
+  background-color: var(--typo3-state-primary-focus-bg);
+  color: var(--typo3-state-primary-focus-color);
+  border-color: var(--typo3-state-primary-focus-border-color);
+}
+
+.driver-popover-footer .driver-popover-next-btn[disabled] {
+  background-color: var(--typo3-state-primary-disabled-bg);
+  color: var(--typo3-state-primary-disabled-color);
+  border-color: var(--typo3-state-primary-disabled-border-color);
+}
+
+.scaffold-content-navigation-switcher:has(>.driver-active-element) {
+  overflow: initial !important;
+}
+
+.driver-popover-description a {
+  color: var(--bs-orange)
+}
+
+.driver-popover-description .driver-alert-info {
+  --typo3-alert-color: var(--typo3-surface-container-info-text);
+  --typo3-alert-bg: var(--typo3-surface-container-info);
+  --typo3-alert-padding-x: 1rem;
+  --typo3-alert-padding-y: 1rem;
+  --typo3-alert-padding-dismissable-end: 3rem;
+  --typo3-alert-margin-bottom: var(--typo3-spacing);
+  --typo3-alert-border-color: color-mix(in srgb, var(--typo3-alert-bg), var(--typo3-alert-color) var(--typo3-border-mix));
+  --typo3-alert-border-width: 1px;
+  --typo3-alert-border-radius: var(--typo3-component-border-radius);
+  padding: var(--typo3-alert-padding-y) var(--typo3-alert-padding-x);
+  margin-bottom: var(--typo3-alert-margin-bottom);
+  color: var(--typo3-alert-color);
+  background-color: var(--typo3-alert-bg);
+  border: var(--typo3-alert-border-width) solid var(--typo3-alert-border-color);
+  border-radius: var(--typo3-alert-border-radius);
+}
+

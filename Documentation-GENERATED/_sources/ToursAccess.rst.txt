@@ -1,0 +1,12 @@
+:navigation-title: Tours Access
+..  _tours-access:
+
+============
+Tours Access
+============
+
+Most TYPO3 core tours, as well as those provided by extension authors, are bound to specific backend modules.
+This means a tour will only be displayed when the user is in the corresponding module and has access to it.
+
+It's important to note that if a user does not have access to a particular module, the related tour will not be displayed - it won't even appear in the dedicated `Guids` module.
+

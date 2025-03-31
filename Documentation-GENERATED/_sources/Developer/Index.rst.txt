@@ -1,0 +1,18 @@
+:navigation-title: Developer
+
+.. _developer:
+
+=========
+Developer
+=========
+
+Here you can find information for developers. Go through the following sections to get more details about the development of this extension.
+
+.. toctree::
+   :maxdepth: 5
+   :titlesonly:
+
+   ConfigurationOverview
+   TourCollector
+   TourManager
+   UserDataStorage

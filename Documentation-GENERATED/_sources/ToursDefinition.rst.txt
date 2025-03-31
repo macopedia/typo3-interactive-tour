@@ -1,0 +1,93 @@
+:navigation-title: Tours Definition
+..  _tours-definition:
+
+================
+Tours Definition
+================
+
+The entire configuration for tours is stored in `YAML` files.
+Each TYPO3 package is scanned to check if it contains a `.yaml` file inside the `Configuration/Tours/` folder.
+It can be one of more files, and they all will be processed.
+The file must follow the structure described in the next sections.
+
+..  _configure-tour:
+
+Configure tour
+=========================================
+
+Each tour should be configured in a separate YAML file.
+The following properties are available:
+
++----------------------+----------+--------------------------------------------------+
+| Settings             | Type     | Description                                      |
++======================+==========+==================================================+
+| `identifier`         | `string` | Tour identifier. Use vendor/tourName             |
++----------------------+----------+--------------------------------------------------+
+| `title`              | `string` | Tour title                                       |
++----------------------+----------+--------------------------------------------------+
+| `description`        | `string` | Tour description                                 |
++----------------------+----------+--------------------------------------------------+
+| `isStandalone`       | `bool`   | Defines if this tour is standalone, 1 step only  |
+|                      |          | and not bound to any element                     |
++----------------------+----------+--------------------------------------------------+
+| `enableInteraction`  | `bool`   | Defines if user should be able to interact with  |
+|                      |          | elements from the highlighted area               |
++----------------------+----------+--------------------------------------------------+
+| `previousButtonText` | `string` | Custom text for previous step button             |
++----------------------+----------+--------------------------------------------------+
+| `nextButtonText`     | `string` | Custom text for next step button                 |
++----------------------+----------+--------------------------------------------------+
+| `finishButtonText`   | `string` | Custom text for finish step button               |
++----------------------+----------+--------------------------------------------------+
+| `nextTourIdentifier` | `string` | Next tour identifier. If defined, tour with      |
+|                      |          | given identifier should be loaded after this     |
+|                      |          | one is finished                                  |
++----------------------+----------+--------------------------------------------------+
+
+..  _configure-steps:
+
+Configure steps
+=========================================
+
+Each step should be configured as a separate array item.
+The following properties are available:
+
++----------------------+----------+--------------------------------------------------+
+| Settings             | Type     | Description                                      |
++======================+==========+==================================================+
+| `title`              | `string` | Step title, rendered in the popup                |
++----------------------+----------+--------------------------------------------------+
+| `content`            | `string` | Popup content                                    |
++----------------------+----------+--------------------------------------------------+
+| `target`             | `string` | The target element to highlight. You can use     |
+|                      |          | class name, ID selector, path etc.               |
++----------------------+----------+--------------------------------------------------+
+| `side`               | `string` | Side of the `target` element on which the popup  |
+|                      |          | should be rendered. Allowed values are: `top`,   |
+|                      |          | `right`, `bottom`, `left`                        |
++----------------------+----------+--------------------------------------------------+
+| `align`              | `align`  | Popup alignment next to `target` element.        |
+|                      |          | Allowed values are: `start`, `center`, `end`     |
++----------------------+----------+--------------------------------------------------+
+| `enableInteraction`  | `bool`   | Defines if user should be able to interact with  |
+|                      |          | elements from the highlighted area               |
++----------------------+----------+--------------------------------------------------+
+| `previousButtonText` | `string` | Custom text for previous step button (overwrites |
+|                      |          | value from the tour configuration)               |
++----------------------+----------+--------------------------------------------------+
+| `nextButtonText`     | `string` | Custom text for next step button (overwrites     |
+|                      |          | value from the tour configuration)               |
++----------------------+----------+--------------------------------------------------+
+
+Example:
+
+.. code-block:: yaml
+
+    steps:
+      - title: 'Step 1'
+        content: 'This is the first step'
+        target: '#element-id'
+        side: 'right'
+        align: 'center'
+        enableInteraction: true
+
