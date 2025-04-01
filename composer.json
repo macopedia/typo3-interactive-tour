@@ -14,6 +14,11 @@
 			"name": "Marcin Sągol",
 			"email": "m.sagol@macopedia.com",
 			"role": "Developer"
+		},
+		{
+			"name": "Mateusz Gdula",
+			"email": "m.gdula@macopedia.com",
+			"role": "Developer"
 		}
 	],
 	"require": {
