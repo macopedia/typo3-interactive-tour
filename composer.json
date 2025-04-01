@@ -6,7 +6,12 @@
 		"TYPO3",
 		"guide",
 		"tour",
-		"backend"
+		"interactive",
+		"backend",
+		"tutorial",
+		"cms",
+		"modules",
+		"walkthrough"
 	],
 	"license": "GPL-2.0-or-later",
 	"authors": [
