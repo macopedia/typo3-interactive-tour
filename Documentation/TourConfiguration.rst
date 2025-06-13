@@ -340,7 +340,7 @@ These events can be assigned to 3 different groups:
 
     ..  confval:: event
         :type: string
-        :name: tour-step-event
+        :name: tour-step-events-event
 
         The JavaScript event to be triggered.
 
@@ -358,7 +358,7 @@ These events can be assigned to 3 different groups:
 
     ..  confval:: target
         :type: string
-        :name: tour-step-target
+        :name: tour-step-events-target
 
         | JavaScript-supported CSS selector used to highlight/select the target element on the page.
         | You can use common selectors like element names, IDs, classes, or attributes such as `data-*`.
@@ -374,20 +374,20 @@ These events can be assigned to 3 different groups:
 
     ..  confval:: delayBefore
         :type: integer
-        :name: tour-step-delayBefore
+        :name: tour-step-events-delayBefore
 
         | Delay before the event is triggered (in miliseconds).
         | In certain cases, triggering an event on an element must be delayed to ensure that the element is ready for interaction.
 
     ..  confval:: delayAfter
         :type: integer
-        :name: tour-step-delayAfter
+        :name: tour-step-events-delayAfter
 
         | Delay after the event is triggered (in miliseconds).
 
     ..  confval:: frame
         :type: string
-        :name: tour-step-frame
+        :name: tour-step-events-frame
 
         | JavaScript-supported CSS selector pointing to the iframe in which the event has to be triggered.
         | Use common selectors such as ID, class, name, or data attributes to identify the iframe.
