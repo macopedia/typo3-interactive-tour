@@ -17,7 +17,7 @@ return [
         'access' => 'user',
         'path' => '/module/help/guide',
         'iconIdentifier' => 'module-guide',
-        'labels' => 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang_mod.xlf',
+        'labels' => 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang_mod.xlf',
         'routes' => [
             '_default' => [
                 'target' => GuideController::class . '::overview',

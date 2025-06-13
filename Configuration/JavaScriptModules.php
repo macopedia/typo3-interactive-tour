@@ -12,6 +12,6 @@ return [
         'core',
     ],
     'imports' => [
-        '@macopedia/typo3-interactive-tour/' => 'EXT:typo3-interactive-tour/Resources/Public/JavaScript/',
+        '@macopedia/typo3-interactive-tour/' => 'EXT:typo3_interactive_tour/Resources/Public/JavaScript/',
     ],
 ];

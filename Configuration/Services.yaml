@@ -12,13 +12,13 @@ services:
     tags:
       - name: 'lowlevel.configuration.module.provider'
         identifier: 'backendGuideTours'
-        label: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:backendGuideTours'
+        label: 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:backendGuideTours'
         before: 'toolbaritems'
 
   dashboard.buttons.toursProgress:
     class: 'Macopedia\Typo3InteractiveTour\Widgets\Provider\GuidesModuleButtonProvider'
     arguments:
-      $title: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:widgets.toursProgressWidget.seeAllTours'
+      $title: 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:widgets.toursProgressWidget.seeAllTours'
       $target: '_blank'
 
   dashboard.widget.toursProgressWidget:
@@ -31,8 +31,8 @@ services:
       - name: dashboard.widget
         identifier: 'toursProgressWidget'
         groupNames: 'documentation'
-        title: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:widgets.toursProgressWidget.title'
-        description: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:widgets.toursProgressWidget.description'
+        title: 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:widgets.toursProgressWidget.title'
+        description: 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:widgets.toursProgressWidget.description'
         iconIdentifier: 'module-guide'
         height: 'small'
         width: 'small'

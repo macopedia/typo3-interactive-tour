@@ -30,22 +30,22 @@
                         <div class="me-auto">
                             <f:if condition="{tour.isCompleted}">
                                 <button class="btn btn-default" data-tour-trigger data-tour-identifier="{tour.identifier}">
-                                    {f:translate(key: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang_mod.xlf:startAgain')}
+                                    {f:translate(key: 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang_mod.xlf:startAgain')}
                                 </button>
                             </f:if>
                             <f:if condition="({tour.currentStep} > 0) && ({tour.isCompleted} == false)">
                                 <button class="btn btn-info" data-tour-trigger data-tour-identifier="{tour.identifier}">
-                                    {f:translate(key: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang_mod.xlf:continueTour')}
+                                    {f:translate(key: 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang_mod.xlf:continueTour')}
                                 </button>
                             </f:if>
                             <f:if condition="({tour.currentStep} == 0) && ({tour.isCompleted} == false)">
                                 <button class="btn btn-primary" data-tour-trigger data-tour-identifier="{tour.identifier}">
-                                    {f:translate(key: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang_mod.xlf:startTour')}
+                                    {f:translate(key: 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang_mod.xlf:startTour')}
                                 </button>
                             </f:if>
                             <f:if condition="{tour.isCompleted} == false">
                                 <button class="btn btn-link ms-2" data-tour-complete data-tour-identifier="{tour.identifier}">
-                                    {f:translate(key: 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang_mod.xlf:markAsCompleted')}
+                                    {f:translate(key: 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang_mod.xlf:markAsCompleted')}
                                 </button>
                             </f:if>
                         </div>
@@ -71,10 +71,10 @@
 
 <f:section name="EmptyList">
     <f:be.infobox
-            title="{f:translate(key:'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang_mod.xlf:overview.notTours.title')}"
+            title="{f:translate(key:'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang_mod.xlf:overview.notTours.title')}"
             state="{f:constant(name: 'TYPO3\CMS\Fluid\ViewHelpers\Be\InfoboxViewHelper::STATE_INFO')}"
     >
-        <p>{f:translate(key:'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang_mod.xlf:overview.notTours.message')}</p>
+        <p>{f:translate(key:'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang_mod.xlf:overview.notTours.message')}</p>
         <p>
             <be:link.documentation identifier="t3coreapi:site-sets" class="btn btn-default">
                 <f:translate key="LLL:EXT:backend/Resources/Private/Language/locallang_sitesettings.xlf:overview.noSiteSettingsExists.button-documentation-label"/>

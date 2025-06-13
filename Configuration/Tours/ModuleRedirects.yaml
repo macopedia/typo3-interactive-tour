@@ -1,34 +1,34 @@
 identifier: typo3/siteRedirects
-title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.title"
-description: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.description"
+title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.title"
+description: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.description"
 moduleName: "site_redirects"
 steps:
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step1.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step1.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step1.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step1.content"
     target: '[data-modulemenu-identifier="site_redirects"]'
     side: "right"
     align: "start"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step2.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step2.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step2.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step2.content"
     target: '.module-body.t3js-module-body'
     side: "left"
     align: "center"
     frame: "#typo3-contentIframe"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step3.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step3.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step3.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step3.content"
     target: '.module-docheader-bar .module-docheader-bar-column-right .btn-toolbar [role="button"]:first-child'
     side: "left"
     align: "start"
     frame: "#typo3-contentIframe"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step4.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step4.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step4.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step4.content"
     target: '.module-docheader-bar .module-docheader-bar-column-left .btn-toolbar [role="button"]:first-child'
     side: "right"
     align: "start"
     frame: "#typo3-contentIframe"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step5.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step5.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step5.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.siteRedirects.step5.content"

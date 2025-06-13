@@ -41,15 +41,15 @@ final readonly class AfterBackendPageRenderEventListener
             return;
         }
 
-        $this->pageRenderer->addInlineLanguageLabel('guide.buttonSkip', $this->getLanguageService()->sL('LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:buttonSkip'));
-        $this->pageRenderer->addInlineLanguageLabel('guide.buttonPrevious', $this->getLanguageService()->sL('LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:buttonPrevious'));
-        $this->pageRenderer->addInlineLanguageLabel('guide.buttonNext', $this->getLanguageService()->sL('LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:buttonNext'));
-        $this->pageRenderer->addInlineLanguageLabel('guide.buttonFinish', $this->getLanguageService()->sL('LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:buttonFinish'));
+        $this->pageRenderer->addInlineLanguageLabel('guide.buttonSkip', $this->getLanguageService()->sL('LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:buttonSkip'));
+        $this->pageRenderer->addInlineLanguageLabel('guide.buttonPrevious', $this->getLanguageService()->sL('LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:buttonPrevious'));
+        $this->pageRenderer->addInlineLanguageLabel('guide.buttonNext', $this->getLanguageService()->sL('LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:buttonNext'));
+        $this->pageRenderer->addInlineLanguageLabel('guide.buttonFinish', $this->getLanguageService()->sL('LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:buttonFinish'));
 
         $javaScriptRenderer->addJavaScriptModuleInstruction(
             JavaScriptModuleInstruction::create('@macopedia/typo3-interactive-tour/guide.js')
         );
-        $this->pageRenderer->addCssFile('EXT:typo3-interactive-tour/Resources/Public/StyleSheets/Guide.css');
+        $this->pageRenderer->addCssFile('EXT:typo3_interactive_tour/Resources/Public/StyleSheets/Guide.css');
     }
 
     private function getBackendUser(): BackendUserAuthentication

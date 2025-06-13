@@ -96,7 +96,7 @@ The following properties are available:
         :name: tour-definition-skipButtonText
 
         | Custom text for the *Skip* step button.
-        | Translations are supported. For example, `LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.skipButtonText`.
+        | Translations are supported. For example, `LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.skipButtonText`.
         | If not set, the default text is used.
 
     ..  confval:: previousButtonText
@@ -104,7 +104,7 @@ The following properties are available:
         :name: tour-definition-previousButtonText
 
         | Custom text for the *Previous* step button. Each step can override this setting.
-        | Translations are supported. For example, `LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.previousButtonText`.
+        | Translations are supported. For example, `LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.previousButtonText`.
         | If not set, the default text is used.
 
     ..  confval:: nextButtonText
@@ -112,7 +112,7 @@ The following properties are available:
         :name: tour-definition-nextButtonText
 
         | Custom text for the *Next* step button. Each step can override this setting.
-        | Translations are supported. For example, `LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.nextButtonText`.
+        | Translations are supported. For example, `LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.nextButtonText`.
         | If not set, the default text is used.
 
     ..  confval:: finishButtonText
@@ -120,7 +120,7 @@ The following properties are available:
         :name: tour-definition-finishButtonText
 
         | Custom text for the *Finish* button. Each step can override this setting.
-        | Translations are supported. For example, `LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.finishButtonText`.
+        | Translations are supported. For example, `LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.finishButtonText`.
         | If not set, the default text is used.
 
     ..  confval:: nextTourIdentifier
@@ -260,14 +260,14 @@ The following properties are available:
         :name: tour-step-previousButtonText
 
         | Custom text for the *Previous* step button (overrides tour-level setting if defined).
-        | Translations are supported. For example, `LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:step.previousButtonText`.
+        | Translations are supported. For example, `LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:step.previousButtonText`.
 
     ..  confval:: nextButtonText
         :type: string
         :name: tour-step-nextButtonText
 
         | Custom text for the *Next* step button (overrides tour-level setting if defined).
-        | Translations are supported. For example, `LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:step.nextButtonText`.
+        | Translations are supported. For example, `LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:step.nextButtonText`.
 
     ..  confval:: requireUserActions
         :type: bool
