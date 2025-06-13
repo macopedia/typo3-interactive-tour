@@ -54,7 +54,7 @@
 	},
 	"extra": {
 		"typo3/cms": {
-			"extension-key": "typo3-interactive-tour"
+			"extension-key": "typo3_interactive_tour"
 		}
 	},
 	"autoload": {
