@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:typo3_interactive_tour/Resources/Private/Language/locallang_db.xlf" date="2025-01-27T10:00:00Z" product-name="lang">
+	<file source-language="en" target-language="pl" datatype="plaintext" original="EXT:typo3_interactive_tour/Resources/Private/Language/locallang_db.xlf" date="2025-06-13T14:00:00Z" product-name="lang">
 		<header/>
 		<body>
 
@@ -9,8 +9,27 @@
 				<target>Przewodniki po panelu administracyjnym</target>
 			</trans-unit>
 
+			<!-- Widgets -->
+
+			<trans-unit id="widgets.toursProgressWidget.title">
+				<source>Tours progress</source>
+				<target>Postęp przewodników</target>
+			</trans-unit>
+			<trans-unit id="widgets.toursProgressWidget.description">
+				<source>Interactive tours progress</source>
+				<target>Postęp interaktywnych przewodników</target>
+			</trans-unit>
+			<trans-unit id="widgets.toursProgressWidget.seeAllTours">
+				<source>See all tours</source>
+				<target>Pokaż wszystkie przewodniki</target>
+			</trans-unit>
+
 			<!-- General labels used by the guide popups -->
 
+			<trans-unit id="buttonSkip">
+				<source>Skip</source>
+				<target>Pomiń</target>
+			</trans-unit>
 			<trans-unit id="buttonPrevious">
 				<source>Previous</source>
 				<target>Wstecz</target>
@@ -27,13 +46,1028 @@
 
 			<!-- Tour: typo3/welcome -->
 
-			<trans-unit id="typo3.welcome.step1.title">
-				<source>Welcome to the Backend</source>
-				<target>Witaj w panelu administracyjnym TYPO3</target>
+			<trans-unit id="tour.typo3.welcome.title">
+				<source>Welcome</source>
+				<target>Witaj</target>
 			</trans-unit>
-			<trans-unit id="typo3.welcome.step2.content">
-				<source>This is the backend of TYPO3 CMS. Here you can manage your content, users, and settings</source>
-				<target>To jest panel administracyjny TYPO3 CMS. Tutaj możesz zarządzać swoją zawartością, użytkownikami i ustawieniami</target>
+			<trans-unit id="tour.typo3.welcome.description">
+				<source>Welcome message to the TYPO3 backend.</source>
+				<target>Komunikat powitalny w panelu administracyjnym TYPO3.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.welcome.step1.title">
+				<source>Welcome</source>
+				<target>Witaj</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.welcome.step1.content">
+				<source><![CDATA[
+					Welcome to the TYPO3 CMS!
+					<br><br>
+					This is the backend of TYPO3 CMS. Here you can manage your content, users, and settings.
+					<br><br>
+					By navigating through the different modules, you will be present with a series of interactive tours that will guide you through the most important features and functionalities of TYPO3 CMS. We encourage you to take the time to explore these tours, as they will help you get familiar with the system and make the most out of it.
+					<br><br>
+					Enjoy your time with TYPO3 CMS!]]>
+				</source>
+				<target><![CDATA[
+					Witamy w TYPO3 CMS!
+					<br><br>
+					To jest panel administracyjny TYPO3 CMS. Tutaj możesz zarządzać treścią, użytkownikami i ustawieniami.
+					<br><br>
+					Przechodząc przez różne moduły, zobaczysz serię interaktywnych przewodników, które pokażą Ci najważniejsze funkcje i możliwości TYPO3 CMS. Zachęcamy do skorzystania z tych przewodników, aby lepiej poznać system i wykorzystać go w pełni.
+					<br><br>
+					Miłego korzystania z TYPO3 CMS!]]>
+				</target>
+			</trans-unit>
+
+			<!-- Tour: typo3/backend -->
+
+			<trans-unit id="tour.typo3.backend.title">
+				<source>Backend</source>
+				<target>Panel administracyjny</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.description">
+				<source>This tour will guide you through the backend of TYPO3 CMS.</source>
+				<target>Ten przewodnik poprowadzi Cię przez panel administracyjny TYPO3 CMS.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step1.title">
+				<source>Welcome to the Backend!</source>
+				<target>Witaj w panelu administracyjnym!</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step1.content">
+				<source>This is the backend of TYPO3. Here you can manage your content, users, and settings. In this tour, we will explore the main backend parts.</source>
+				<target>To jest panel administracyjny TYPO3. Tutaj możesz zarządzać zawartością, użytkownikami i ustawieniami. W tej turze omówimy główne elementy panelu administracyjnego.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step2.title">
+				<source>Top Bar</source>
+				<target>Pasek górny</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step2.content">
+				<source>This is Top Bar. It gives you access to your user settings, logout, search etc.</source>
+				<target>To jest pasek górny. Umożliwia dostęp do ustawień użytkownika, wylogowania, wyszukiwania itp.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step3.title">
+				<source>User Menu 1/2</source>
+				<target>Menu użytkownika 1/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step3.content">
+				<source><![CDATA[
+					By clicking on this button, you will access your account menu.
+				  	<br><br>
+				  	From here you can:
+				  	<br><br>
+				  	<ul>
+				  	<li>Open your user settings</li>
+				  	<li>Toggle dark/ light mode</li>
+				  	<li>Logout from the backend</li>
+				  	</ul>]]>
+				</source>
+				<target><![CDATA[
+				  	Klikając ten przycisk, uzyskasz dostęp do menu konta.
+				  	<br><br>
+				  	Stąd możesz:
+				  	<br><br>
+				  	<ul>
+				  	<li>Otworzyć ustawienia użytkownika</li>
+				  	<li>Przełączyć tryb ciemny/jasny</li>
+				  	<li>Wylogować się z panelu administracyjnego</li>
+				  	</ul>]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step4.title">
+				<source>The Main Menu</source>
+				<target>Menu główne</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step4.content">
+				<source><![CDATA[
+      				The main menu is located on the left side of the screen. Here you can navigate through the backend.
+      				<br><br>
+      				Main Menu contains links to modules that are grouped by functionality. You can expand and collapse each group by clicking on the group name.
+      				<br><br>
+      				Active module is always highlighted with a light background and tiny border around it.]]>
+				</source>
+				<target><![CDATA[
+      				Menu główne znajduje się po lewej stronie ekranu. Tutaj możesz poruszać się po panelu administracyjnym.
+      				<br><br>
+      				Menu główne zawiera linki do modułów pogrupowanych według funkcjonalności. Możesz rozwijać i zwijać każdą grupę, klikając jej nazwę.
+      				<br><br>
+      				Aktywny moduł jest zawsze wyróżniony jasnym tłem i delikatną ramką.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step5.title">
+				<source>Toggle the Main Menu</source>
+				<target>Przełącz menu główne</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step5.content">
+				<source>By clicking this button, you can toggle the main menu to display either icons only or icons with module names.</source>
+				<target>Klikając ten przycisk, przełączysz wyświetlanie menu głównego między samymi ikonami a ikonami z nazwami modułów.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step6.title">
+				<source>Module Content</source>
+				<target>Zawartość modułu</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step6.content">
+				<source>As you now know, TYPO3 is build up of modules. Each module has its own views and offers different functionality. In this area you will see the selected module content.</source>
+				<target>Jak już wiesz, TYPO3 składa się z modułów. Każdy moduł ma własny widok i różne funkcje. W tej sekcji zobaczysz zawartość wybranego modułu.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step7.title">
+				<source>Congratulations!</source>
+				<target>Gratulacje!</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.backend.step7.content">
+				<source>You have completed the introduction to TYPO3 backend. Check out the next tours to learn more about different parts of the TYPO3 backend.</source>
+				<target>Ukończyłeś wprowadzenie do panelu administracyjnego TYPO3. Sprawdź kolejne przewodniki, aby dowiedzieć się więcej o innych częściach panelu.</target>
+			</trans-unit>
+
+			<!-- Tour: typo3/dashboard -->
+
+			<trans-unit id="tour.typo3.dashboard.title">
+				<source>Dashboard</source>
+				<target>Pulpit</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.description">
+				<source>Learn about the role of the Dashboard module and how to manage widgets.</source>
+				<target>Poznaj rolę modułu Pulpit i naucz się zarządzać widgetami.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step1.title">
+				<source>Dashboard Module</source>
+				<target>Moduł Pulpit</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step1.content">
+				<source><![CDATA[
+      				You are now in the <strong>Dashboard</strong> module. It is the very first module in the main menu.
+      				<br><br>
+      				The Dashboard module is a central place where you can build your own dashboards and arrange widgets to suit your needs.]]>
+				</source>
+				<target><![CDATA[
+      				Jesteś teraz w module <strong>Pulpit</strong>. To pierwszy moduł w głównym menu.
+      				<br><br>
+      				Moduł Pulpit to centralne miejsce, w którym możesz tworzyć własne pulpity i układać widgety według potrzeb.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step2.title">
+				<source>Dashboards</source>
+				<target>Pulpity</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step2.content">
+				<source><![CDATA[
+      				You will see a list of available dashboards as a tabs at the top of the module.
+      				<br><br>
+      				Each dashboard is a collection of widgets that can be arranged and customized to suit your needs.]]>
+				</source>
+				<target><![CDATA[
+      				Zobaczysz listę dostępnych pulpitów jako karty u góry modułu.
+      				<br><br>
+      				Każdy pulpit to zbiór widgetów, które można układać i dostosowywać do własnych potrzeb.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step3.title">
+				<source>Creating Dashboards 1/2</source>
+				<target>Tworzenie pulpitów 1/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step3.content">
+				<source><![CDATA[You can create a new dashboard by clicking on this button.]]></source>
+				<target><![CDATA[Możesz utworzyć nowy pulpit, klikając ten przycisk.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step4.title">
+				<source>Creating Dashboards 2/2</source>
+				<target>Tworzenie pulpitów 2/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step4.content">
+				<source><![CDATA[
+      				After clicking on the <strong>Add dashboard</strong> button, a dialog will appear, allowing you to enter the name of your new dashboard.
+      				<br><br>
+      				You can also choose between creating an empty dashboard or selecting a predefined dashboard (with relevant widgets already included).]]>
+				</source>
+				<target><![CDATA[
+      				Po kliknięciu przycisku <strong>Dodaj pulpit</strong> pojawi się okno dialogowe, w którym możesz wpisać nazwę nowego pulpitu.
+      				<br><br>
+      				Możesz również wybrać utworzenie pustego pulpitu lub wybranie gotowego pulpitu (ze wstępnie skonfigurowanymi widgetami).]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step5.title">
+				<source>Editing Dashboard 1/2</source>
+				<target>Edytowanie pulpitu 1/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step5.content">
+				<source>You can edit the name of your dashboard by clicking on this button.</source>
+				<target>Możesz edytować nazwę pulpitu, klikając ten przycisk.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step6.title">
+				<source>Editing Dashboard 2/2</source>
+				<target>Edytowanie pulpitu 2/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step6.content">
+				<source><![CDATA[
+      				It will open a dialog where you can change the name of your dashboard.
+      				<br><br>
+      				Just enter the new name and click on the <strong>Save</strong> button.]]>
+				</source>
+				<target><![CDATA[
+      				Otworzy się okno dialogowe, w którym możesz zmienić nazwę pulpitu.
+      				<br><br>
+      				Wpisz nową nazwę i kliknij przycisk <strong>Zapisz</strong>.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step7.title">
+				<source>Deleting Dashboard</source>
+				<target>Usuwanie pulpitu</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step7.content">
+				<source>You can delete existing dashboard by clicking on this button.</source>
+				<target>Możesz usunąć istniejący pulpit, klikając ten przycisk.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step8.title">
+				<source>Add Widgets</source>
+				<target>Dodaj widgety</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step8.content">
+				<source><![CDATA[To add widgets to your dashboard, click on the <strong>Add widget</strong> button.]]></source>
+				<target><![CDATA[Aby dodać widgety do pulpitu, kliknij przycisk <strong>Dodaj widget</strong>.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step9.title">
+				<source>Adding Widgets 2/2</source>
+				<target>Dodawanie widgetów 2/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step9.content">
+				<source><![CDATA[
+      				A dialog will appear, allowing you to select the widgets you want to add to your dashboard.
+      				<br><br>
+      				Widgets are grouped by category, making it easier to find the one you're looking for.
+      				<br><br>
+      				You can also filter widgets by typing into the search field.]]>
+				</source>
+				<target><![CDATA[
+      				Pojawi się okno dialogowe umożliwiające wybranie widgetów, które chcesz dodać do pulpitu.
+      				<br><br>
+      				Widgety są pogrupowane według kategorii, co ułatwia znalezienie poszukiwanego.
+      				<br><br>
+      				Możesz też filtrować widgety, wpisując tekst w polu wyszukiwania.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step10.title">
+				<source>Arranging Widgets</source>
+				<target>Układanie widgetów</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.dashboard.step10.content">
+				<source><![CDATA[
+      				You can arrange the widgets on your dashboard by dragging and dropping them to the desired position.
+      				<br><br>
+      				Widgets can have different sizes, so you can create a layout that suits your needs.
+      				<br><br>
+      				Just play around with the widgets and see what they offer. Enjoy!]]>
+				</source>
+				<target><![CDATA[
+      				Możesz układać widgety na pulpicie, przeciągając je i upuszczając w wybrane miejsce.
+      				<br><br>
+      				Widgety mogą mieć różne rozmiary, dzięki czemu stworzysz układ dopasowany do swoich potrzeb.
+      				<br><br>
+      				Eksperymentuj z widgetami i zobacz, co oferują. Miłej zabawy!]]>
+				</target>
+			</trans-unit>
+
+			<!-- Tour: typo3/webLayout -->
+
+			<trans-unit id="tour.typo3.webLayout.title">
+				<source>Pages and Layout</source>
+				<target>Strony i układ</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.description">
+				<source>This tour will guide you through the Pages module of TYPO3 CMS.</source>
+				<target>Ta wycieczka przeprowadzi Cię przez moduł Strony w TYPO3 CMS.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step1.title">
+				<source>Page Module</source>
+				<target>Moduł Strony</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step1.content">
+				<source><![CDATA[
+        			You are now in the <strong>Page</strong> module. Here you can view and manage your website’s pages and content.
+        			<br><br>
+        			If you navigate to another module, you can always return to the <strong>Page</strong> module by selecting this entry in the main menu.]]>
+				</source>
+				<target><![CDATA[
+        			Jesteś teraz w module <strong>Strony</strong>. Tutaj możesz przeglądać i zarządzać stronami oraz zawartością swojej witryny.
+        			<br><br>
+        			Jeśli przejdziesz do innego modułu, zawsze możesz wrócić do modułu <strong>Strony</strong>, wybierając tę pozycję w głównym menu.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step2.title">
+				<source>The Page Tree</source>
+				<target>Drzewo stron</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step2.content">
+				<source><![CDATA[
+        			Page management is handled through the <strong>Page Tree</strong> component.
+        			<br><br>
+        			From this area, you can create new pages, edit existing ones, manage their properties, rearrange their order, and more.]]>
+				</source>
+				<target><![CDATA[
+        			Zarządzanie stronami odbywa się za pomocą komponentu <strong>Drzewo stron</strong>.
+        			<br><br>
+        			W tym miejscu możesz tworzyć nowe strony, edytować istniejące, zarządzać ich właściwościami, zmieniać ich kolejność i wiele więcej.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step3.title">
+				<source>Filtering Pages</source>
+				<target>Filtrowanie stron</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step3.content">
+				<source><![CDATA[
+        			You can filter pages using the search field.
+        			<br><br>
+        			Simply type the name of the page you’re looking for, and the tree will display only the pages that match your search term.]]>
+				</source>
+				<target><![CDATA[
+        			Możesz filtrować strony za pomocą pola wyszukiwania.
+        			<br><br>
+        			Wystarczy wpisać nazwę poszukiwanej strony, a drzewo wyświetli tylko te strony, które pasują do Twojego zapytania.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step4.title">
+				<source>Toggle the Page Tree</source>
+				<target>Przełącz drzewo stron</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step4.content">
+				<source>This button toggles the page tree’s visibility - allowing it to be hidden or shown.</source>
+				<target>Ten przycisk przełącza widoczność drzewa stron – umożliwiając jego ukrycie lub wyświetlenie.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step5.title">
+				<source>Page Type Inspector</source>
+				<target>Inspektor typów stron</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step5.content">
+				<source><![CDATA[New pages of various types can be created by dragging the desired page type icon from the <strong>Page Type Inspector</strong> into the <strong>Page Tree</strong>.]]></source>
+				<target><![CDATA[Nowe strony różnych typów można tworzyć, przeciągając ikonę wybranego typu strony z <strong>Inspektora typów stron</strong> do <strong>Drzewa stron</strong>.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step6.title">
+				<source>Page Tree Context Menu</source>
+				<target>Menu kontekstowe drzewa stron</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step6.content">
+				<source><![CDATA[
+        			This button allows you to open the context menu for the page tree, revealing a list of actions you can perform.
+        			<br><br>
+        			Click "Next" to learn more about the context menu.]]>
+				</source>
+				<target><![CDATA[
+        			Ten przycisk umożliwia otwarcie menu kontekstowego drzewa stron, wyświetlając listę dostępnych akcji.
+        			<br><br>
+        			Kliknij „Dalej”, aby dowiedzieć się więcej o menu kontekstowym.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step7.title">
+				<source>Page Tree Context Menu</source>
+				<target>Menu kontekstowe drzewa stron</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step7.content">
+				<source><![CDATA[
+        			From here, you can:
+        			<br><br>
+        			<ul>
+        			<li><strong>Reload</strong> the entire tree to view the latest changes (useful when multiple users are working on it)</li>
+        			<li><strong>Collapse</strong> all tree items (especially helpful for navigating large trees)</li>
+        			</ul>]]>
+				</source>
+				<target><![CDATA[
+        			Stąd możesz:
+        			<br><br>
+        			<ul>
+        			<li><strong>Odświeżyć</strong> całe drzewo, aby zobaczyć najnowsze zmiany (przydatne przy pracy wielu użytkowników)</li>
+        			<li><strong>Zwinąć</strong> wszystkie elementy drzewa (szczególnie pomocne przy dużych drzewach)</li>
+        			</ul>]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step8.title">
+				<source>Creating Pages</source>
+				<target>Tworzenie stron</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step8.content">
+				<source><![CDATA[
+        			<div class="driver-alert-info">To proceed to the next step, please click 👆 on the homepage name or the first page you have access to.</div>
+        			If you don't have any pages yet, you can create one by dragging and dropping the page icon from the page type inspector (above the page tree) into the page tree.
+        			<br><br>
+        			Later, you can also create a new page by clicking on a page icon in the page tree to open the context menu and selecting "New subpage".]]>
+				</source>
+				<target><![CDATA[
+        			<div class="driver-alert-info">Aby przejść do kolejnego kroku, kliknij 👆 nazwę strony głównej lub pierwszą stronę, do której masz dostęp.</div>
+        			Jeśli nie masz jeszcze żadnych stron, możesz utworzyć nową, przeciągając i upuszczając ikonę strony z inspektora typów stron (powyżej drzewa stron) do drzewa stron.
+        			<br><br>
+        			Później możesz również utworzyć nową stronę, klikając ikonę strony w drzewie stron, aby otworzyć menu kontekstowe i wybierając „Nowa podstrona”.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step9.title">
+				<source>Page Content</source>
+				<target>Zawartość strony</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step9.content">
+				<source><![CDATA[
+        			In this area, you can manage the content of the selected page.
+        			<br><br>
+        			You can:
+        			<br><br>
+        			<ul>
+        			<li>Edit individual content elements</li>
+        			<li>Add new content elements</li>
+        			<li>Change the order of content elements</li>
+        			<li>Preview the page</li>
+        			<li>Edit page properties</li>
+        			</ul>
+        			...and more.]]>
+				</source>
+				<target><![CDATA[
+        			W tym obszarze możesz zarządzać zawartością wybranej strony.
+        			<br><br>
+        			Możesz:
+        			<br><br>
+        			<ul>
+        			<li>Edytować poszczególne elementy treści</li>
+        			<li>Dodawać nowe elementy treści</li>
+        			<li>Zmienić kolejność elementów treści</li>
+        			<li>Podglądać stronę</li>
+        			<li>Edytować właściwości strony</li>
+        			</ul>
+        			...i wiele więcej.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step10.title">
+				<source>Creating New Content 1/3</source>
+				<target>Tworzenie nowej zawartości 1/3</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step10.content">
+				<source><![CDATA[
+        			You can create new content elements by clicking on the <strong>Create new content</strong> button.
+        			<br><br>
+        			You can see multiple buttons like this one, depending on the page layout and how many content elements are already present.
+        			<br><br>
+        			They allow you to create new content elements in different areas and positions on the page.]]>
+				</source>
+				<target><![CDATA[
+        			Możesz tworzyć nowe elementy zawartości, klikając przycisk <strong>Utwórz nową zawartość</strong>.
+        			<br><br>
+        			Możesz zobaczyć wiele takich przycisków, w zależności od układu strony i liczby już istniejących elementów zawartości.
+        			<br><br>
+        			Umożliwiają one tworzenie nowych elementów zawartości w różnych obszarach i pozycjach na stronie.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step11.title">
+				<source>Creating New Content 2/3</source>
+				<target>Tworzenie nowej zawartości 2/3</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step11.content">
+				<source><![CDATA[
+        			Content elements are grouped by category, making it easier to find the one you're looking for.
+        			<br><br>
+        			You can also filter content elements by typing into the search field.
+        			<br><br>
+        			To add a new content element, simply click on the desired content element type.
+        			<br><br>
+        			A new form will open, allowing you to enter the details of the new content element.
+        			<br><br>
+        			When you finish, click on the <strong>Save</strong> button to save the changes.]]>
+				</source>
+				<target><![CDATA[
+        			Elementy zawartości są pogrupowane według kategorii, co ułatwia znalezienie tego, którego potrzebujesz.
+        			<br><br>
+        			Możesz także filtrować elementy zawartości, wpisując tekst w polu wyszukiwania.
+        			<br><br>
+        			Aby dodać nowy element zawartości, po prostu kliknij wybrany typ elementu zawartości.
+        			<br><br>
+        			Otworzy się nowy formularz, umożliwiający wprowadzenie szczegółów nowego elementu zawartości.
+        			<br><br>
+        			Po zakończeniu kliknij przycisk <strong>Zapisz</strong>, aby zapisać zmiany.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step12.title">
+				<source>Edit Page Title</source>
+				<target>Edytuj tytuł strony</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step12.content">
+				<source>You can quickly edit the page title by double-clicking the title or by clicking the edit icon.</source>
+				<target>Możesz szybko edytować tytuł strony, klikając dwukrotnie na tytuł lub klikając ikonę edycji.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step13.title">
+				<source>Page Preview</source>
+				<target>Podgląd strony</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step13.content">
+				<source><![CDATA[You can preview the page and its content at any time, by clicking on the <strong>View webpage</strong> button.]]></source>
+				<target><![CDATA[M możesz w każdej chwili podejrzeć stronę i jej zawartość, klikając przycisk <strong>Wyświetl stronę</strong>.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step14.title">
+				<source>Edit Page Properties</source>
+				<target>Edytuj właściwości strony</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step14.content">
+				<source><![CDATA[You can edit current page properties, by clicking on the <strong>Edit page properties</strong> button.]]></source>
+				<target><![CDATA[Możesz edytować właściwości bieżącej strony, klikając przycisk <strong>Edytuj właściwości strony</strong>.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step15.title">
+				<source>Toolbar</source>
+				<target>Pasek narzędzi</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webLayout.step15.content">
+				<source><![CDATA[
+        			Most of the modules offer a toolbar in the top right corner.
+        			<br><br>
+					Depending on your permissions, you will have access to:
+					<br><br>
+					<ul>
+					<li>Refresh button</li>
+					<li>View menu</li>
+					<li>Share menu (create bookmark / copy URL)</li>
+					</ul>]]>
+				</source>
+				<target><![CDATA[
+        			Większość modułów oferuje pasek narzędzi w prawym górnym rogu.
+					<br><br>
+					W zależności od uprawnień będziesz mieć dostęp do:
+					<br><br>
+					<ul>
+					<li>Przycisku odświeżania</li>
+					<li>Menu widoku</li>
+					<li>Menu udostępniania (utwórz zakładkę / skopiuj URL)</li>
+					</ul>]]>
+				</target>
+			</trans-unit>
+
+			<!-- Tour: typo3/pagePreview -->
+
+			<trans-unit id="tour.typo3.pagePreview.title">
+				<source>Page Preview</source>
+				<target>Podgląd strony</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.description">
+				<source>Find out what previewing a page in the backend looks like.</source>
+				<target>Dowiedz się, jak wygląda podgląd strony w panelu administracyjnym.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step1.title">
+				<source>View</source>
+				<target>Widok</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step1.content">
+				<source><![CDATA[You are now in the <strong>View</strong> module. It allows to preview the current page for different screen sizes, screen orientations and more.]]></source>
+				<target><![CDATA[Jesteś teraz w module <strong>Widok</strong>. Umożliwia on podgląd bieżącej strony w różnych rozmiarach ekranu, orientacjach i nie tylko.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step2.title">
+				<source>Select Page for Preview</source>
+				<target>Wybierz stronę do podglądu</target>
+			</trans-unit>
+
+			<trans-unit id="tour.typo3.pagePreview.step2.content">
+				<source><![CDATA[
+        			<div class="driver-alert-info">Select the page you want to preview (by clicking 👆 on its name).</div>
+					If there are no pages yet, you can create one by dragging and dropping the page icon from the page type inspector (above the page tree) into the page tree.
+					<br><br>
+					Previews are available only for standard pages (not folders or other page types).]]>
+				</source>
+				<target><![CDATA[
+        			<div class="driver-alert-info">Wybierz stronę, którą chcesz podejrzeć (klikając 👆 jej nazwę).</div>
+					Jeśli nie ma jeszcze żadnych stron, możesz utworzyć nową, przeciągając i upuszczając ikonę strony z inspektora typów stron (nad drzewem stron) do drzewa stron.
+					<br><br>
+					Podglądy dostępne są tylko dla standardowych stron (nie dla folderów ani innych typów stron).]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step3.title">
+				<source>Preview Box</source>
+				<target>Okno podglądu</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step3.content">
+				<source>When you select a page, the preview box will show at the center of to content area.</source>
+				<target>Po wybraniu strony okno podglądu pojawi się na środku obszaru z zawartością.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step4.title">
+				<source>Preview Orientation</source>
+				<target>Orientacja podglądu</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step4.content">
+				<source>By clicking on this icon, You can change the orientation of the preview.</source>
+				<target>Klikając na tę ikonę, możesz zmienić orientację podglądu.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step5.title">
+				<source>Sizes Presets 1/2</source>
+				<target>Ustawienia rozmiarów 1/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step5.content">
+				<source>By clicking on the sizes presets menu, you can select the screen size you want to preview or define a custom size.</source>
+				<target>Klikając w menu ustawień rozmiarów, możesz wybrać rozmiar ekranu do podglądu lub zdefiniować własny rozmiar.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step6.title">
+				<source>Sizes Presets 2/2</source>
+				<target>Ustawienia rozmiarów 2/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step6.content">
+				<source>The list of available sizes presets depends on the configuration of your TYPO3 installation.</source>
+				<target>Lista dostępnych ustawień rozmiarów zależy od konfiguracji Twojej instalacji TYPO3.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step7.title">
+				<source>Page View</source>
+				<target>Widok strony</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step7.content">
+				<source>You can also open the current page preview in a new tab by clicking on this button.</source>
+				<target>Możesz też otworzyć podgląd bieżącej strony w nowej karcie, klikając ten przycisk.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step8.title">
+				<source>Try it</source>
+				<target>Wypróbuj</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.pagePreview.step8.content">
+				<source>
+					Play around with the preview and see how it looks on different devices. Enjoy!
+				</source>
+				<target>
+					Pobaw się podglądem, zobacz jak wygląda na różnych urządzeniach. Miłej zabawy!
+				</target>
+			</trans-unit>
+
+
+			<!-- Tour: typo3/webList -->
+
+			<trans-unit id="tour.typo3.webList.title">
+				<source>List module</source>
+				<target>Moduł listy</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.description">
+				<source>This tour will guide you through the backend of TYPO3 CMS.</source>
+				<target>Ta wycieczka przeprowadzi Cię przez zaplecze TYPO3 CMS.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step1.title">
+				<source>List Module</source>
+				<target>Moduł listy</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step1.content">
+				<source><![CDATA[You are now in the <strong>List</strong> module. It will allow you to view and manage records of a specific tables.]]></source>
+				<target><![CDATA[Jesteś teraz w module <strong>Listy</strong>. Umożliwi Ci on przeglądanie i zarządzanie rekordami wybranych tabel.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step2.title">
+				<source>The Page Tree</source>
+				<target>Drzewo stron</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step2.content">
+				<source><![CDATA[
+        			Different type of records, listed by this module, are stored on different pages.
+					<br><br>
+					You can navigate through the pages using the <strong>Page Tree</strong> component, to see the records stored on each page.
+					<br><br>
+					<div class="driver-alert-info">👆 Now, please click on the homepage title, to move to the next step.</div>]]>
+				</source>
+				<target><![CDATA[
+        			Różne typy rekordów wyświetlane przez ten moduł są przechowywane na różnych stronach.
+					<br><br>
+					Możesz nawigować między stronami za pomocą komponentu <strong>Drzewo stron</strong>, aby zobaczyć rekordy przechowywane na każdej stronie.
+					<br><br>
+					<div class="driver-alert-info">👆 Teraz kliknij tytuł strony głównej, aby przejść do następnego kroku.</div>]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step3.title">
+				<source>List of Records</source>
+				<target>Lista rekordów</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step3.content">
+				<source><![CDATA[
+        			The list of records is displayed in the main content area.
+					<br><br>
+					Different types of records are shown in separate tables. Clicking on a table header will take you directly to the single-table view.
+					<br><br>
+					Each table also provides various actions, such as creating new records, deleting records, or editing existing ones.
+					<br><br>
+					Note that you will only see records assigned to the page currently selected in the page tree.]]>
+				</source>
+				<target><![CDATA[
+        			Lista rekordów jest wyświetlana w głównym obszarze treści.
+					<br><br>
+					Różne typy rekordów prezentowane są w osobnych tabelach. Kliknięcie nagłówka tabeli przenosi Cię bezpośrednio do widoku pojedynczej tabeli.
+					<br><br>
+					Każda tabela oferuje także różne akcje, takie jak tworzenie nowych rekordów, usuwanie rekordów czy edytowanie istniejących.
+					<br><br>
+					Pamiętaj, że zobaczysz tylko rekordy przypisane do strony aktualnie wybranej w drzewie stron.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step4.title">
+				<source>Creating a New Record</source>
+				<target>Tworzenie nowego rekordu</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step4.content">
+				<source><![CDATA[
+        			To create a new record, click on the "Create new record" button.
+					<br><br>
+					You will see a list of all available record types. You can select one to create a new record on the current page.]]>
+				</source>
+				<target><![CDATA[
+        			Aby utworzyć nowy rekord, kliknij przycisk „Utwórz nowy rekord”.
+					<br><br>
+					Zobaczysz listę wszystkich dostępnych typów rekordów. Możesz wybrać jeden z nich, aby utworzyć nowy rekord na bieżącej stronie.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step5.title">
+				<source>Webpage Preview</source>
+				<target>Podgląd strony</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step5.content">
+				<source><![CDATA[By clicking on the <strong>View webpage</strong> button, you can preview the page in a new tab.]]></source>
+				<target><![CDATA[Klikając przycisk <strong>Wyświetl stronę</strong>, możesz podejrzeć stronę w nowej karcie.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step6.title">
+				<source>Editing Page Properties</source>
+				<target>Edycja właściwości strony</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step6.content">
+				<source><![CDATA[By clicking on the <strong>Edit page properties</strong> button, you can edit the properties of the current page.]]></source>
+				<target><![CDATA[Klikając przycisk <strong>Edytuj właściwości strony</strong>, możesz zmienić właściwości bieżącej strony.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step7.title">
+				<source>Refreshing the List</source>
+				<target>Odświeżanie listy</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step7.content">
+				<source><![CDATA[To refresh the list of records, click on the <strong>Refresh</strong> button.]]></source>
+				<target><![CDATA[Aby odświeżyć listę rekordów, kliknij przycisk <strong>Odśwież</strong>.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step8.title">
+				<source>View menu 1/2</source>
+				<target>Menu widoku 1/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step8.content">
+				<source><![CDATA[By clicking on the <strong>View</strong> button, you can toggle the view options.]]></source>
+				<target><![CDATA[Klikając przycisk <strong>Widok</strong>, możesz przełączać opcje widoku.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step9.title">
+				<source>View menu 2/2</source>
+				<target>Menu widoku 2/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.webList.step9.content">
+				<source><![CDATA[The view dropdown menu allows you to show the search field and the clipboard.]]></source>
+				<target><![CDATA[Menu rozwijane widoku pozwala wyświetlić pole wyszukiwania i schowek.]]></target>
+			</trans-unit>
+
+			<!-- Tour: typo3/mediaManagement -->
+
+			<trans-unit id="tour.typo3.mediaManagement.title">
+				<source>Files Management</source>
+				<target>Zarządzanie plikami</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.description">
+				<source>This tour will guide you through the Files module of TYPO3 CMS.</source>
+				<target>Ta wycieczka przeprowadzi Cię przez moduł Pliki w TYPO3 CMS.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step1.title">
+				<source>Files</source>
+				<target>Pliki</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step1.content">
+				<source>Files module is a powerful tool that allows you to manage files and folders in TYPO3.</source>
+				<target>Moduł Pliki to potężne narzędzie pozwalające zarządzać plikami i folderami w TYPO3.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step2.title">
+				<source>Files Storage Tree</source>
+				<target>Drzewo magazynów plików</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step2.content">
+				<source><![CDATA[
+        			The Files Storage Tree is located on the left side of the screen.
+					<br><br>
+					It renders a tree view of all available file storages and folders.]]>
+				</source>
+				<target><![CDATA[
+        			Drzewo magazynów plików znajduje się po lewej stronie ekranu.
+					<br><br>
+					Wyświetla widok drzewa wszystkich dostępnych zasobników plików i folderów.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step3.title">
+				<source>Search</source>
+				<target>Wyszukiwanie</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step3.content">
+				<source>You can search for folders by typing into the search field.</source>
+				<target>Możesz wyszukiwać foldery, wpisując tekst w polu wyszukiwania.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step4.title">
+				<source>Toggle Storage Tree</source>
+				<target>Przełącz drzewo magazynów</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step4.content">
+				<source>This button toggles the storage tree’s visibility - allowing it to be hidden or shown.</source>
+				<target>Ten przycisk przełącza widoczność drzewa magazynów – umożliwiając jego ukrycie lub wyświetlenie.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step5.title">
+				<source>Storage Tree Context Menu</source>
+				<target>Menu kontekstowe drzewa magazynów</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step5.content">
+				<source><![CDATA[
+        			This button allows you to open the context menu for the storage tree, revealing a list of actions you can perform.
+					<br><br>
+					Click "Next" to learn more about the context menu.]]></source>
+				<target><![CDATA[
+        			Ten przycisk pozwala otworzyć menu kontekstowe drzewa magazynów, wyświetlając listę dostępnych akcji.
+					<br><br>
+					Kliknij „Dalej”, aby dowiedzieć się więcej o menu kontekstowym.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step6.title">
+				<source>Storage Tree Context Menu</source>
+				<target>Menu kontekstowe drzewa magazynów</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step6.content">
+				<source><![CDATA[
+        			From here, you can:
+					<br><br>
+					<ul>
+					<li><strong>Reload</strong> the entire tree to view the latest changes (useful when multiple users are working on it)</li>
+					<li><strong>Collapse</strong> all tree items (especially helpful for navigating large trees)</li>
+					</ul>]]>
+				</source>
+				<target><![CDATA[
+					Stąd możesz:
+					<br><br>
+					<ul>
+					<li><strong>Odświeżyć</strong> całe drzewo, aby zobaczyć najnowsze zmiany (przydatne, gdy nad nim pracuje wielu użytkowników)</li>
+					<li><strong>Zwinąć</strong> wszystkie elementy drzewa (szczególnie pomocne przy nawigacji w dużych drzewach)</li>
+					</ul>]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step7.title">
+				<source>Upload Files</source>
+				<target>Prześlij pliki</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step7.content">
+				<source><![CDATA[The <strong>Upload Files</strong> button allows you to upload files to the selected folder.]]></source>
+				<target><![CDATA[Przycisk <strong>Prześlij pliki</strong> pozwala na przesyłanie plików do wybranego folderu.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step8.title">
+				<source>Create Folder</source>
+				<target>Utwórz folder</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step8.content">
+				<source><![CDATA[The <strong>Create Folder</strong> button allows you to create a new folder in the current directory.]]></source>
+				<target><![CDATA[Przycisk <strong>Utwórz folder</strong> pozwala utworzyć nowy folder w bieżącym katalogu.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step9.title">
+				<source>Create File</source>
+				<target>Utwórz plik</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step9.content">
+				<source><![CDATA[The <strong>Create File</strong> button opens form to create a new file text or media files.]]></source>
+				<target><![CDATA[Przycisk <strong>Utwórz plik</strong> otwiera formularz do utworzenia nowego pliku tekstowego lub multimedialnego.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step10.title">
+				<source>Search Files And Folders</source>
+				<target>Wyszukaj pliki i foldery</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step10.content">
+				<source>You can search for files and folders using the search field.</source>
+				<target>Możesz wyszukiwać pliki i foldery, używając pola wyszukiwania.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step11.title">
+				<source>Files And Folders List</source>
+				<target>Lista plików i folderów</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step11.content">
+				<source><![CDATA[All files and folders in this area.<br><br>Click on a folder to open it and view its contents.<br><br>Click on a file name to open a form where you can edit its metadata.]]></source>
+				<target><![CDATA[Wszystkie pliki i foldery w tym obszarze.<br><br>Kliknij folder, aby go otworzyć i wyświetlić jego zawartość.<br><br>Kliknij nazwę pliku, aby otworzyć formularz, w którym możesz edytować jego metadane.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step12.title">
+				<source>Refresh File List</source>
+				<target>Odśwież listę plików</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step12.content">
+				<source>You can refresh the file list to see any changes made.</source>
+				<target>Możesz odświeżyć listę plików, aby zobaczyć wprowadzone zmiany.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step13.title">
+				<source>View Menu 1/2</source>
+				<target>Menu widoku 1/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step13.content">
+				<source>View Menu allows you to change the various display options for the file list.</source>
+				<target>Menu widoku pozwala zmieniać różne opcje wyświetlania listy plików.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step14.title">
+				<source>View Menu 2/2</source>
+				<target>Menu widoku 2/2</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step14.content">
+				<source><![CDATA[You can change the view from tiles to list and vice versa.<br><br>You can also activate thumbnail display and show the clipboard.<br><br>Clipboard is a temporary storage area where you can place files and folders for copying or moving.]]></source>
+				<target><![CDATA[Możesz przełączać widok z kafelków na listę i odwrotnie.<br><br>Możesz także włączyć wyświetlanie miniatur i pokazać schowek.<br><br>Schowek to tymczasowy obszar, w którym możesz umieszczać pliki i foldery do kopiowania lub przenoszenia.]]></target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step15.title">
+				<source>Organize Files</source>
+				<target>Organizuj pliki</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.mediaManagement.step15.content">
+				<source><![CDATA[Try to organize your files in a way that makes sense to you.<br><br>Use folders to group related files together.]]></source>
+				<target><![CDATA[Staraj się organizować pliki w sposób, który ma dla Ciebie sens.<br><br>Używaj folderów, aby grupować powiązane pliki.]]></target>
+			</trans-unit>
+
+			<!-- Tour: typo3/siteRedirects -->
+
+			<trans-unit id="tour.typo3.siteRedirects.title">
+				<source>Redirects</source>
+				<target>Przekierowania</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.description">
+				<source>Get familiar with the Site Redirects module and learn how to create and manage redirects for your website.</source>
+				<target>Zapoznaj się z modułem Przekierowania witryny i naucz się tworzyć oraz zarządzać przekierowaniami na swojej stronie internetowej.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step1.title">
+				<source>Redirects</source>
+				<target>Przekierowania</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step1.content">
+				<source><![CDATA[
+        			Site redirects are a powerful feature that allows you to manage and create redirects for your website.
+					<br><br>
+					You can create redirects for specific pages, URLs, or even entire domains.]]>
+				</source>
+				<target><![CDATA[
+        			Przekierowania witryny to potężna funkcja, która pozwala zarządzać i tworzyć przekierowania na Twojej stronie.
+					<br><br>
+					Możesz tworzyć przekierowania dla konkretnych stron, adresów URL lub nawet całych domen.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step2.title">
+				<source>Redirects List</source>
+				<target>Lista przekierowań</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step2.content">
+				<source><![CDATA[
+        			In the main module area you will see a list of all existing redirects.
+					<br><br>
+					If there are no redirects yet, you will see a message indicating that there are no redirects and a button to create a new one.
+					<br><br>
+					You can filter the list of redirects by using the filter form at the top of the module.
+					<br><br>
+					The tabele with the redirects will allow you to:
+					<br>
+					<ul>
+					<li>Edit the redirect</li>
+					<li>Disable the redirect</li>
+					<li>Delete the redirect</li>
+					</ul>]]>
+				</source>
+				<target><![CDATA[
+        			W głównym obszarze modułu zobaczysz listę wszystkich istniejących przekierowań.
+					<br><br>
+					Jeśli nie ma jeszcze żadnych przekierowań, pojawi się komunikat o braku przekierowań oraz przycisk do utworzenia nowego.
+					<br><br>
+					Możesz filtrować listę przekierowań, korzystając z formularza filtrów u góry modułu.
+					<br><br>
+					Tabela z przekierowaniami umożliwia:
+					<br>
+					<ul>
+					<li>Edycję przekierowania</li>
+					<li>Wyłączenie przekierowania</li>
+					<li>Usunięcie przekierowania</li>
+					</ul>]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step3.title">
+				<source>List Refresh</source>
+				<target>Odświeżanie listy</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step3.content">
+				<source>You can refresh the list at any time, by clicking on this button.</source>
+				<target>Możesz odświeżyć listę w dowolnym momencie, klikając ten przycisk.</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step4.title">
+				<source>Creating Redirects</source>
+				<target>Tworzenie przekierowań</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step4.content">
+				<source><![CDATA[
+        			You can create a new redirect by clicking on the <strong>Add redirect</strong> button.
+					<br><br>
+					it will open a new form, where you can enter the details of the redirect.]]>
+				</source>
+				<target><![CDATA[
+        			Możesz utworzyć nowe przekierowanie, klikając przycisk <strong>Dodaj przekierowanie</strong>.
+					<br><br>
+					Otworzy się wtedy formularz, w którym możesz wprowadzić szczegóły nowego przekierowania.]]>
+				</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step5.title">
+				<source>Redirects Usage</source>
+				<target>Zastosowanie przekierowań</target>
+			</trans-unit>
+			<trans-unit id="tour.typo3.siteRedirects.step5.content">
+				<source><![CDATA[
+        			Use redirects to manage changes to your website's URLs, such as:
+					<br><br>
+					<ul>
+					<li>Moving pages to new locations</li>
+					<li>Changing the structure of your website</li>
+					</ul>
+					Redirects ensure that visitors and search engines can find the content they’re looking for, even if the URL has changed.]]>
+				</source>
+				<target><![CDATA[
+        			Użyj przekierowań, aby zarządzać zmianami adresów URL na swojej stronie, takimi jak:
+					<br><br>
+					<ul>
+					<li>Przenoszenie stron do nowych lokalizacji</li>
+					<li>Zmiana struktury witryny</li>
+					</ul>
+					Przekierowania zapewniają, że odwiedzający i wyszukiwarki znajdą poszukiwane treści, nawet jeśli adres URL uległ zmianie.]]>
+				</target>
 			</trans-unit>
 
 		</body>
