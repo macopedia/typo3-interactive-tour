@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="pl" datatype="plaintext" original="EXT:typo3_interactive_tour/Resources/Private/Language/locallang_db.xlf" date="2025-06-13T14:00:00Z" product-name="lang">
+		<header/>
+		<body>
+
+			<trans-unit id="be_users.disableTours">
+				<source>Disable tours</source>
+				<target>Wyłącz wycieczki</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
