@@ -14,6 +14,6 @@ use TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider;
 return [
     'module-guide' => [
         'provider' => SvgIconProvider::class,
-        'source' => 'EXT:typo3-interactive-tour/Resources/Public/Icons/module-guide.svg',
+        'source' => 'EXT:typo3_interactive_tour/Resources/Public/Icons/module-guide.svg',
     ],
 ];

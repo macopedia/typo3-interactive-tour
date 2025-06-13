@@ -13,7 +13,7 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 defined('TYPO3') or die();
 
-$lll = 'LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang_db.xlf:';
+$lll = 'LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang_db.xlf:';
 
 $GLOBALS['TYPO3_USER_SETTINGS']['columns']['disableTours'] = [
     'label' => $lll . 'be_users.disableTours',

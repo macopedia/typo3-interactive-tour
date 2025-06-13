@@ -1,33 +1,33 @@
 identifier: typo3/dashboard
-title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.title"
-description: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.description"
+title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.title"
+description: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.description"
 moduleName: "dashboard"
 nextTourIdentifier: typo3/webLayout
 steps:
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step1.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step1.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step1.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step1.content"
     target: '[data-modulemenu-identifier="dashboard"]'
     side: "right"
     align: "start"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step2.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step2.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step2.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step2.content"
     target: "div.dashboard-header > div > div.dashboard-tabs > button.dashboard-tab:first-child"
     side: "right"
     align: "start"
     sleep: 300
     frame: "#typo3-contentIframe"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step3.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step3.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step3.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step3.content"
     target: "div.dashboard-header button.btn-dashboard-add-tab"
     side: "right"
     align: "start"
     sleep: 300
     frame: "#typo3-contentIframe"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step4.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step4.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step4.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step4.content"
     target: ".t3js-modal-content.modal-content"
     side: "top"
     align: "center"
@@ -43,16 +43,16 @@ steps:
         - event: "click"
           target: ".t3js-modal-content.modal-content .t3js-modal-close"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step5.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step5.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step5.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step5.content"
     target: ".dashboard-configuration.btn-toolbar button:first-child"
     side: "left"
     align: "start"
     sleep: 300
     frame: "#typo3-contentIframe"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step6.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step6.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step6.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step6.content"
     target: ".t3js-modal-content.modal-content"
     side: "top"
     align: "center"
@@ -68,24 +68,24 @@ steps:
         - event: "click"
           target: ".t3js-modal-content.modal-content .t3js-modal-close"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step7.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step7.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step7.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step7.content"
     target: ".dashboard-configuration.btn-toolbar button:last-child"
     side: "left"
     align: "start"
     sleep: 300
     frame: "#typo3-contentIframe"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step8.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step8.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step8.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step8.content"
     target: ".btn-dashboard-add-widget"
     side: "top"
     align: "end"
     sleep: 300
     frame: "#typo3-contentIframe"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step9.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step9.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step9.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step9.content"
     target: ".t3js-modal-content.modal-content"
     side: "top"
     align: "center"
@@ -101,8 +101,8 @@ steps:
         - event: "click"
           target: ".t3js-modal-content.modal-content .t3js-modal-close"
 
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step10.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step10.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step10.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.dashboard.step10.content"
     target: ".module-body.t3js-module-body"
     side: "left"
     align: "center"

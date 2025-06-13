@@ -1,6 +1,6 @@
 identifier: typo3/webLayout
-title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.title"
-description: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.description"
+title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.title"
+description: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.description"
 moduleName: "web_layout"
 nextTourIdentifier: typo3/pagePreview
 permissions:
@@ -14,22 +14,22 @@ permissions:
     - pages
 steps:
   # Page Module
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step1.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step1.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step1.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step1.content"
     target: '[data-modulemenu-identifier="web_layout"]'
     side: "right"
     align: "center"
 
   # The Page Tree
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step2.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step2.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step2.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step2.content"
     target: ".t3js-scaffold-content-navigation"
     side: "right"
     align: "center"
 
   # Filtering Pages
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step3.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step3.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step3.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step3.content"
     target: "#toolbarSearch"
     side: "right"
     align: "start"
@@ -37,31 +37,31 @@ steps:
     enableInteraction: true
 
   # Toggle the Page Tree button
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step4.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step4.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step4.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step4.content"
     target: ".scaffold-content-navigation-switcher button:last-child"
     side: "right"
     align: "start"
 
   # Page Type Inspector
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step5.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step5.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step5.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step5.content"
     target: ".tree-toolbar__submenu"
     side: "right"
     align: "center"
     sleep: 250
 
   # Page Tree Context Menu
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step6.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step6.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step6.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step6.content"
     target: ".tree-toolbar__submenu button.tree-toolbar__menuitem.dropdown-toggle"
     side: "right"
     align: "start"
     sleep: 250
 
   # Page Tree Context Menu - dropdown
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step7.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step7.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step7.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step7.content"
     target: ".tree-toolbar__submenu > ul.dropdown-menu"
     side: "right"
     align: "start"
@@ -76,8 +76,8 @@ steps:
           target: ".tree-toolbar__submenu button.tree-toolbar__menuitem.dropdown-toggle"
 
   # Creating Pages
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step8.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step8.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step8.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step8.content"
     target: "#typo3-pagetree"
     side: "right"
     align: "start"
@@ -93,8 +93,8 @@ steps:
           delayAfter: 100
 
   # Module Content
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step9.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step9.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step9.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step9.content"
     target: ".module-body.t3js-module-body"
     frame: "#typo3-contentIframe"
     side: "left"
@@ -102,16 +102,16 @@ steps:
     sleep: 250
 
   # New Content Element Button
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step10.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step10.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step10.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step10.content"
     target: ".module-body typo3-backend-new-content-element-wizard-button:first-child"
     frame: "#typo3-contentIframe"
     side: "bottom"
     align: "center"
 
   # New Content Element Wizard
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step11.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step11.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step11.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step11.content"
     target: ".t3js-modal-content.modal-content"
     side: "top"
     align: "center"
@@ -128,32 +128,32 @@ steps:
           target: "button.t3js-modal-close.close"
 
   # Edit Page Title
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step12.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step12.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step12.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step12.content"
     target: "typo3-backend-editable-page-title"
     frame: "#typo3-contentIframe"
     side: "left"
     align: "start"
 
   # View Webpage
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step13.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step13.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step13.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step13.content"
     target: ".module-docheader-bar-column-left a[role='button']:first-child"
     frame: "#typo3-contentIframe"
     side: "right"
     align: "start"
 
   # Edit Page Properties
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step14.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step14.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step14.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step14.content"
     target: ".module-docheader-bar-column-left a[role='button']:nth-child(2)"
     frame: "#typo3-contentIframe"
     side: "right"
     align: "start"
 
   # Toolbar
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step15.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step15.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step15.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.webLayout.step15.content"
     target: ".module-docheader-bar-column-right div[role='toolbar']"
     frame: "#typo3-contentIframe"
     side: "left"

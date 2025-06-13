@@ -1,8 +1,8 @@
 identifier: typo3/welcome
-title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.welcome.title"
-description: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.welcome.description"
+title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.welcome.title"
+description: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.welcome.description"
 isStandalone: true
 nextTourIdentifier: typo3/backend
 steps:
-  - title: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.welcome.step1.title"
-    content: "LLL:EXT:typo3-interactive-tour/Resources/Private/Language/locallang.xlf:tour.typo3.welcome.step1.content"
+  - title: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.welcome.step1.title"
+    content: "LLL:EXT:typo3_interactive_tour/Resources/Private/Language/locallang.xlf:tour.typo3.welcome.step1.content"
