@@ -83,10 +83,15 @@ For a list of all available tour, step and event options, please refer to the do
 Detailed documentation covers configuration options, tour setup, and usage guidance.\
 It is available in the documentation section of this repository.
 
-## Testing and Feedback
+## Contributing
 
-We encourage community testing, feedback, and contributions to enhance the extension further.\
-Report issues and suggest improvements via the GitHub issue tracker.
+We welcome contributions to this project! 
+
+If you have ideas, bug fixes, or enhancements, please submit a pull request or open an issue on the GitHub repository.\
+
+If you would like to help to translate the extension into your language, you can either:
+- Create a pull request with your translation files in the `Resources/Private/Language/` directory
+- Visit our project on [Crowdin](https://crowdin.com/project/typo3-extension-interactive-to) and contribute translations there
 
 ## Known Issues
 
