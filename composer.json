@@ -28,15 +28,15 @@
 	],
 	"require": {
 		"symfony/http-foundation": "*",
-		"typo3/cms-lowlevel": "^13.3",
-		"typo3/cms-setup": "^13.3"
+		"typo3/cms-lowlevel": "^13",
+		"typo3/cms-setup": "^13"
 	},
 	"require-dev": {
         "friendsofphp/php-cs-fixer": "^3",
 		"roave/security-advisories": "dev-latest"
 	},
 	"conflict": {
-		"typo3/cms-core": "<12"
+		"typo3/cms-core": "<13"
 	},
 	"config": {
 		"preferred-install": {
