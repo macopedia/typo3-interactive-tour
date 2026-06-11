@@ -5,50 +5,50 @@
     <body>
       <trans-unit id="backendGuideTours">
         <source>Backend Guide Tours</source>
-        <target state="needs-translation">Backend Guide Tours</target>
+        <target state="translated">Rondleidingen voor backend</target>
       </trans-unit>
       <!-- Widgets -->
       <trans-unit id="widgets.toursProgressWidget.title">
         <source>Tours progress</source>
-        <target state="needs-translation">Tours progress</target>
+        <target state="translated">Voortgang rondleidingen</target>
       </trans-unit>
       <trans-unit id="widgets.toursProgressWidget.description">
         <source>Interactive tours progress</source>
-        <target state="needs-translation">Interactive tours progress</target>
+        <target state="translated">Voortgang interactieve rondleidingen</target>
       </trans-unit>
       <trans-unit id="widgets.toursProgressWidget.seeAllTours">
         <source>See all tours</source>
-        <target state="needs-translation">See all tours</target>
+        <target state="translated">Bekijk alle rondleidingen</target>
       </trans-unit>
       <!-- General labels used by the guide popups -->
       <trans-unit id="buttonSkip">
         <source>Skip</source>
-        <target state="needs-translation">Skip</target>
+        <target state="translated">Overslaan</target>
       </trans-unit>
       <trans-unit id="buttonPrevious">
         <source>Previous</source>
-        <target state="needs-translation">Previous</target>
+        <target state="translated">Vorige</target>
       </trans-unit>
       <trans-unit id="buttonNext">
         <source>Next</source>
-        <target state="needs-translation">Next</target>
+        <target state="translated">Volgende</target>
       </trans-unit>
       <trans-unit id="buttonFinish">
         <source>Finish</source>
-        <target state="needs-translation">Finish</target>
+        <target state="translated">Voltooien</target>
       </trans-unit>
       <!-- Tour: typo3/welcome -->
       <trans-unit id="tour.typo3.welcome.title">
         <source>Welcome</source>
-        <target state="needs-translation">Welcome</target>
+        <target state="translated">Welkom</target>
       </trans-unit>
       <trans-unit id="tour.typo3.welcome.description">
         <source>Welcome message to the TYPO3 backend.</source>
-        <target state="needs-translation">Welcome message to the TYPO3 backend.</target>
+        <target state="translated">Welkomstbericht bij de TYPO3 backend.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.welcome.step1.title">
         <source>Welcome</source>
-        <target state="needs-translation">Welcome</target>
+        <target state="translated">Welkom</target>
       </trans-unit>
       <trans-unit id="tour.typo3.welcome.step1.content">
         <source><![CDATA[
@@ -59,14 +59,14 @@
 					By navigating through the different modules, you will be present with a series of interactive tours that will guide you through the most important features and functionalities of TYPO3 CMS. We encourage you to take the time to explore these tours, as they will help you get familiar with the system and make the most out of it.
 					<br><br>
 					Enjoy your time with TYPO3 CMS!]]></source>
-        <target state="needs-translation"><![CDATA[
-					Welcome to the TYPO3 CMS!
+        <target state="translated"><![CDATA[
+					Welkom bij TYPO3 CMS!
 					<br><br>
-					This is the backend of TYPO3 CMS. Here you can manage your content, users, and settings.
+					Dit is de backend van het TYPO3 CMS. Hier kunnen inhoud, gebruikers en instellingen beheerd worden.
 					<br><br>
-					By navigating through the different modules, you will be present with a series of interactive tours that will guide you through the most important features and functionalities of TYPO3 CMS. We encourage you to take the time to explore these tours, as they will help you get familiar with the system and make the most out of it.
+					Met het navigeren door diverse modules wordt een reeks interactieve rondleidingen getoond die de belangrijkste functionaliteiten van TYPO3 CMS laten zien. Neem de tijd om deze rondleidingen te bekijken om bekend te raken met het systeem en er het meeste uit te halen.
 					<br><br>
-					Enjoy your time with TYPO3 CMS!]]></target>
+					Veel plezier met TYPO3 CMS!]]></target>
       </trans-unit>
       <!-- Tour: typo3/backend -->
       <trans-unit id="tour.typo3.backend.title">
