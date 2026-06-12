@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:typo3_interactive_tour/Resources/Private/Language/locallang_mod.xlf" date="2025-01-27T10:00:00Z" product-name="lang" target-language="ca">
+    <header/>
+    <body>
+      <trans-unit id="mlang_labels_tablabel">
+        <source>Interactive Tours</source>
+        <target state="needs-translation">Interactive Tours</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr">
+        <source>This module provides interactive tours for backend users.</source>
+        <target state="needs-translation">This module provides interactive tours for backend users.</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab">
+        <source>Interactive Tours</source>
+        <target state="needs-translation">Interactive Tours</target>
+      </trans-unit>
+      <!-- Overview -->
+      <trans-unit id="overview.title">
+        <source>Interactive tours through TYPO3 CMS backend</source>
+        <target state="needs-translation">Interactive tours through TYPO3 CMS backend</target>
+      </trans-unit>
+      <trans-unit id="overview.description">
+        <source>Browse the available step-by-step tours to learn various TYPO3 features. Select a guide to quickly master new workflows and streamline your backend experience.</source>
+        <target state="needs-translation">Browse the available step-by-step tours to learn various TYPO3 features. Select a guide to quickly master new workflows and streamline your backend experience.</target>
+      </trans-unit>
+      <trans-unit id="overview.disableTours">
+        <source>Disable tours</source>
+        <target state="needs-translation">Disable tours</target>
+      </trans-unit>
+      <trans-unit id="overview.disableTours.description">
+        <source>You can disable tours and enable them again at any time. When tours are disabled, no tour will automatically start.</source>
+        <target state="needs-translation">You can disable tours and enable them again at any time. When tours are disabled, no tour will automatically start.</target>
+      </trans-unit>
+      <trans-unit id="overview.toursEnabled">
+        <source>Tours enabled</source>
+        <target state="needs-translation">Tours enabled</target>
+      </trans-unit>
+      <trans-unit id="overview.notTours.title">
+        <source>No tours available</source>
+        <target state="needs-translation">No tours available</target>
+      </trans-unit>
+      <trans-unit id="overview.notTours.message">
+        <source>There are no tours available at the moment. Please check back later.</source>
+        <target state="needs-translation">There are no tours available at the moment. Please check back later.</target>
+      </trans-unit>
+      <trans-unit id="startTour">
+        <source>Start tour</source>
+        <target state="needs-translation">Start tour</target>
+      </trans-unit>
+      <trans-unit id="startAgain">
+        <source>Start again</source>
+        <target state="needs-translation">Start again</target>
+      </trans-unit>
+      <trans-unit id="continueTour">
+        <source>Continue</source>
+        <target state="needs-translation">Continue</target>
+      </trans-unit>
+      <trans-unit id="markAsCompleted">
+        <source>Mark as completed</source>
+        <target state="needs-translation">Mark as completed</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
