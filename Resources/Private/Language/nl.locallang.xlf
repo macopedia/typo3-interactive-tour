@@ -71,31 +71,31 @@
       <!-- Tour: typo3/backend -->
       <trans-unit id="tour.typo3.backend.title">
         <source>Backend</source>
-        <target state="needs-translation">Backend</target>
+        <target state="translated">Backend</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.description">
         <source>This tour will guide you through the backend of TYPO3 CMS.</source>
-        <target state="needs-translation">This tour will guide you through the backend of TYPO3 CMS.</target>
+        <target state="translated">Dit is een rondleiding door de backend van TYPO3 CMS.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step1.title">
         <source>Welcome to the Backend!</source>
-        <target state="needs-translation">Welcome to the Backend!</target>
+        <target state="translated">Welkom bij de Backend!</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step1.content">
         <source>This is the backend of TYPO3. Here you can manage your content, users, and settings. In this tour, we will explore the main backend parts.</source>
-        <target state="needs-translation">This is the backend of TYPO3. Here you can manage your content, users, and settings. In this tour, we will explore the main backend parts.</target>
+        <target state="translated">Dit is de backend van TYPO3. Hier worden inhoud, gebruikers en instellingen beheerd. In deze rondleiding bekijken we de belangrijkste onderdelen van de backend.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step2.title">
         <source>Top Bar</source>
-        <target state="needs-translation">Top Bar</target>
+        <target state="translated">Bovenbalk</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step2.content">
         <source>This is Top Bar. It gives you access to your user settings, logout, search etc.</source>
-        <target state="needs-translation">This is Top Bar. It gives you access to your user settings, logout, search etc.</target>
+        <target state="translated">Dit is de bovenbalk. Deze geeft toegang tot gebruikersinstellingen, uitloggen, zoeken, enz.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step3.title">
         <source>User Menu 1/2</source>
-        <target state="needs-translation">User Menu 1/2</target>
+        <target state="translated">Gebruikersmenu 1/2</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step3.content">
         <source><![CDATA[
@@ -108,20 +108,20 @@
 					<li>Toggle dark/ light mode</li>
 					<li>Logout from the backend</li>
 					</ul>]]></source>
-        <target state="needs-translation"><![CDATA[
-					By clicking on this button, you will access your account menu.
+        <target state="translated"><![CDATA[
+					Deze knop geeft toegang tot het profielmenu.
 					<br><br>
-					From here you can:
+					Van hieruit is het mogelijk om:
 					<br><br>
 					<ul>
-					<li>Open your user settings</li>
-					<li>Toggle dark/ light mode</li>
-					<li>Logout from the backend</li>
+					<li>De gebruikersinstellingen te openen</li>
+					<li>Tussen donkere en lichte modus te wisselen</li>
+					<li>Af te melden bij de backend</li>
 					</ul>]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step4.title">
         <source>The Main Menu</source>
-        <target state="needs-translation">The Main Menu</target>
+        <target state="translated">Het hoofdmenu</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step4.content">
         <source><![CDATA[
@@ -130,49 +130,49 @@
 					Main Menu contains links to modules that are grouped by functionality. You can expand and collapse each group by clicking on the group name.
 					<br><br>
 					Active module is always highlighted with a light background and tiny border around it.]]></source>
-        <target state="needs-translation"><![CDATA[
-					The main menu is located on the left side of the screen. Here you can navigate through the backend.
+        <target state="translated"><![CDATA[
+					Het hoofdmenu bevindt zich aan de linker kant van het scherm. Dit bevat de navigatie door de backend.
 					<br><br>
-					Main Menu contains links to modules that are grouped by functionality. You can expand and collapse each group by clicking on the group name.
+					Het hoofdmenu bevat links naar modules die gegroepeerd zijn op functionaliteit. Elke groep kan uit- of ingeklapt worden door op de groepsnaam te klikken.
 					<br><br>
-					Active module is always highlighted with a light background and tiny border around it.]]></target>
+					De actieve module is gemarkeerd door een lichte achtergrond en een smalle rand.]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step5.title">
         <source>Toggle the Main Menu</source>
-        <target state="needs-translation">Toggle the Main Menu</target>
+        <target state="translated">Het hoofdmenu in-/uitschakelen</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step5.content">
         <source>By clicking this button, you can toggle the main menu to display either icons only or icons with module names.</source>
-        <target state="needs-translation">By clicking this button, you can toggle the main menu to display either icons only or icons with module names.</target>
+        <target state="translated">Door op deze knop te klikken wordt gewisseld tussen een hoofdmenu met alleen icoontjes of icoontjes met modulenamen.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step6.title">
         <source>Module Content</source>
-        <target state="needs-translation">Module Content</target>
+        <target state="translated">Module-inhoud</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step6.content">
         <source>As you now know, TYPO3 is build up of modules. Each module has its own views and offers different functionality. In this area you will see the selected module content.</source>
-        <target state="needs-translation">As you now know, TYPO3 is build up of modules. Each module has its own views and offers different functionality. In this area you will see the selected module content.</target>
+        <target state="translated">Zoals nu bekend is TYPO3 opgebouwd uit modules. Elke module heeft zijn eigen weergave en biedt verschillende functionaliteiten. In dit gebied wordt de inhoud van de geselecteerde module weergegeven.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step7.title">
         <source>Congratulations!</source>
-        <target state="needs-translation">Congratulations!</target>
+        <target state="translated">Gefeliciteerd!</target>
       </trans-unit>
       <trans-unit id="tour.typo3.backend.step7.content">
         <source>You have completed the introduction to TYPO3 backend. Check out the next tours to learn more about different parts of the TYPO3 backend.</source>
-        <target state="needs-translation">You have completed the introduction to TYPO3 backend. Check out the next tours to learn more about different parts of the TYPO3 backend.</target>
+        <target state="translated">De introductie van de TYPO3 backend is hiermee compleet. De volgende rondleidingen gaan dieper in op de verschillende onderdelen van de TYPO3 backend.</target>
       </trans-unit>
       <!-- Tour: typo3/dashboard -->
       <trans-unit id="tour.typo3.dashboard.title">
         <source>Dashboard</source>
-        <target state="needs-translation">Dashboard</target>
+        <target state="translated">Dashboard</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.description">
         <source>Learn about the role of the Dashboard module and how to manage widgets.</source>
-        <target state="needs-translation">Learn about the role of the Dashboard module and how to manage widgets.</target>
+        <target state="translated">Leer over de rol van de module Dashboard en hoe widgets beheerd kunnen worden.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step1.title">
         <source>Dashboard Module</source>
-        <target state="needs-translation">Dashboard Module</target>
+        <target state="translated">Dashboard Module</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step1.content">
         <source><![CDATA[
