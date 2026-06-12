@@ -179,88 +179,88 @@
 					You are now in the <strong>Dashboard</strong> module. It is the very first module in the main menu.
 					<br><br>
 					The Dashboard module is a central place where you can build your own dashboards and arrange widgets to suit your needs.]]></source>
-        <target state="needs-translation"><![CDATA[
-					You are now in the <strong>Dashboard</strong> module. It is the very first module in the main menu.
+        <target state="translated"><![CDATA[
+					Dit is de <strong>Dashboard</strong> module. Het is de eerste module in het hoofdmenu.
 					<br><br>
-					The Dashboard module is a central place where you can build your own dashboards and arrange widgets to suit your needs.]]></target>
+					De Dashboard module is een centrale plek op zelf dashboards te bouwen en naar eigen inzicht widgets te plaatsen.]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step2.title">
         <source>Dashboards</source>
-        <target state="needs-translation">Dashboards</target>
+        <target state="translated">Dashboards</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step2.content">
         <source><![CDATA[
 					You will see a list of available dashboards as a tabs at the top of the module.
 					<br><br>
 					Each dashboard is a collection of widgets that can be arranged and customized to suit your needs.]]></source>
-        <target state="needs-translation"><![CDATA[
-					You will see a list of available dashboards as a tabs at the top of the module.
+        <target state="translated"><![CDATA[
+					De beschikbare dashboards zijn als tabbladen bovenaan de module te vinden.
 					<br><br>
-					Each dashboard is a collection of widgets that can be arranged and customized to suit your needs.]]></target>
+					Elk dashboard is een verzameling widgets die naar eigen inzicht gerangschikt en aangepast kunnen worden.]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step3.title">
         <source>Creating Dashboards 1/2</source>
-        <target state="needs-translation">Creating Dashboards 1/2</target>
+        <target state="translated">Dashboards aanmaken 1/2</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step3.content">
         <source><![CDATA[You can create a new dashboard by clicking on this button.]]></source>
-        <target state="needs-translation"><![CDATA[You can create a new dashboard by clicking on this button.]]></target>
+        <target state="translated"><![CDATA[Met deze knop kan een nieuw dashboard aangemaakt worden.]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step4.title">
         <source>Creating Dashboards 2/2</source>
-        <target state="needs-translation">Creating Dashboards 2/2</target>
+        <target state="translated">Dashboards aanmaken 2/2</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step4.content">
         <source><![CDATA[
 					After clicking on the <strong>Add dashboard</strong> button, a dialog will appear, allowing you to enter the name of your new dashboard.
 					<br><br>
 					You can also choose between creating an empty dashboard or selecting a predefined dashboard (with relevant widgets already included).]]></source>
-        <target state="needs-translation"><![CDATA[
-					After clicking on the <strong>Add dashboard</strong> button, a dialog will appear, allowing you to enter the name of your new dashboard.
+        <target state="translated"><![CDATA[
+					Na een klik op de knop <strong>Dashboard toevoegen</strong> verschijnt een venster om het dashboard een naam te geven.
 					<br><br>
-					You can also choose between creating an empty dashboard or selecting a predefined dashboard (with relevant widgets already included).]]></target>
+					Er kan ook gekozen worden om een voorgedefinieerd dashboard (gevuld met relevante widgets) aan te maken.]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step5.title">
         <source>Editing Dashboard 1/2</source>
-        <target state="needs-translation">Editing Dashboard 1/2</target>
+        <target state="translated">Dashboard bewerken 1/2</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step5.content">
         <source>You can edit the name of your dashboard by clicking on this button.</source>
-        <target state="needs-translation">You can edit the name of your dashboard by clicking on this button.</target>
+        <target state="translated">Met deze knop kan de naam van het dashboard bewerkt worden.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step6.title">
         <source>Editing Dashboard 2/2</source>
-        <target state="needs-translation">Editing Dashboard 2/2</target>
+        <target state="translated">Dashboard bewerken 2/2</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step6.content">
         <source><![CDATA[
 					It will open a dialog where you can change the name of your dashboard.
 					<br><br>
 					Just enter the new name and click on the <strong>Save</strong> button.]]></source>
-        <target state="needs-translation"><![CDATA[
-					It will open a dialog where you can change the name of your dashboard.
+        <target state="translated"><![CDATA[
+					Een venster verschijnt om de naam van het dashboard te veranderen.
 					<br><br>
-					Just enter the new name and click on the <strong>Save</strong> button.]]></target>
+					Type een nieuwe naam in en klik op <strong>Opslaan</strong>.]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step7.title">
         <source>Deleting Dashboard</source>
-        <target state="needs-translation">Deleting Dashboard</target>
+        <target state="translated">Dashboard verwijderen</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step7.content">
         <source>You can delete existing dashboard by clicking on this button.</source>
-        <target state="needs-translation">You can delete existing dashboard by clicking on this button.</target>
+        <target state="translated">Met deze knop kan een bestaand dashboard worden verwijderd.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step8.title">
         <source>Add Widgets</source>
-        <target state="needs-translation">Add Widgets</target>
+        <target state="translated">Widgets toevoegen</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step8.content">
         <source><![CDATA[To add widgets to your dashboard, click on the <strong>Add widget</strong> button.]]></source>
-        <target state="needs-translation"><![CDATA[To add widgets to your dashboard, click on the <strong>Add widget</strong> button.]]></target>
+        <target state="translated"><![CDATA[Klik op de knop <strong>Widget toevoegen</strong> om widget aan het dashboard toe te voegen.]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step9.title">
         <source>Adding Widgets 2/2</source>
-        <target state="needs-translation">Adding Widgets 2/2</target>
+        <target state="translated">Widgets toevoegen 2/2</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step9.content">
         <source><![CDATA[
@@ -269,16 +269,16 @@
 					Widgets are grouped by category, making it easier to find the one you're looking for.
 					<br><br>
 					You can also filter widgets by typing into the search field.]]></source>
-        <target state="needs-translation"><![CDATA[
-					A dialog will appear, allowing you to select the widgets you want to add to your dashboard.
+        <target state="translated"><![CDATA[
+					Er verschijnt een scherm waamee widgets gekozen kunnen worden die toegevoegd moeten worden aan het dashboard.
 					<br><br>
-					Widgets are grouped by category, making it easier to find the one you're looking for.
+					Widgets zijn gegroepeerd op categorie, zodat ze makkelijker te vinden zijn.
 					<br><br>
-					You can also filter widgets by typing into the search field.]]></target>
+					Er kan ook gefilterd worden door in het zoekveld te typen.]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step10.title">
         <source>Arranging Widgets</source>
-        <target state="needs-translation">Arranging Widgets</target>
+        <target state="translated">Widgets ordenen</target>
       </trans-unit>
       <trans-unit id="tour.typo3.dashboard.step10.content">
         <source><![CDATA[
@@ -287,12 +287,12 @@
 					Widgets can have different sizes, so you can create a layout that suits your needs.
 					<br><br>
 					Just play around with the widgets and see what they offer. Enjoy!]]></source>
-        <target state="needs-translation"><![CDATA[
-					You can arrange the widgets on your dashboard by dragging and dropping them to the desired position.
+        <target state="translated"><![CDATA[
+					Widgets kunnen verplaatst worden door ze te verslepen.
 					<br><br>
-					Widgets can have different sizes, so you can create a layout that suits your needs.
+					Widgets hebben verschillende maten zodat er naar eigen inzicht een lay-out gemaakt kan worden.
 					<br><br>
-					Just play around with the widgets and see what they offer. Enjoy!]]></target>
+					Probeer wat widgets en kijk wat ze te bieden hebben. Veel plezier!]]></target>
       </trans-unit>
       <!-- Tour: typo3/webLayout -->
       <trans-unit id="tour.typo3.webLayout.title">
@@ -625,23 +625,23 @@
       <!-- Tour: typo3/webList -->
       <trans-unit id="tour.typo3.webList.title">
         <source>List module</source>
-        <target state="needs-translation">List module</target>
+        <target state="translated">Lijst module</target>
       </trans-unit>
       <trans-unit id="tour.typo3.webList.description">
         <source>This tour will guide you through the backend of TYPO3 CMS.</source>
-        <target state="needs-translation">This tour will guide you through the backend of TYPO3 CMS.</target>
+        <target state="translated">Dit is een rondleiding door de backend van TYPO3 CMS.</target>
       </trans-unit>
       <trans-unit id="tour.typo3.webList.step1.title">
         <source>List Module</source>
-        <target state="needs-translation">List Module</target>
+        <target state="translated">Lijst module</target>
       </trans-unit>
       <trans-unit id="tour.typo3.webList.step1.content">
         <source><![CDATA[You are now in the <strong>List</strong> module. It will allow you to view and manage records of a specific tables.]]></source>
-        <target state="needs-translation"><![CDATA[You are now in the <strong>List</strong> module. It will allow you to view and manage records of a specific tables.]]></target>
+        <target state="translated"><![CDATA[Dit is de <strong>Lijst</strong> module. Hier kunnen records van specifieke tabllen bekeken en beheerd worden.]]></target>
       </trans-unit>
       <trans-unit id="tour.typo3.webList.step2.title">
         <source>The Page Tree</source>
-        <target state="needs-translation">The Page Tree</target>
+        <target state="translated">De paginaboom</target>
       </trans-unit>
       <trans-unit id="tour.typo3.webList.step2.content">
         <source><![CDATA[
